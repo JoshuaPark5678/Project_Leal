@@ -1,0 +1,23 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dtja1vakc7arw"]
+
+[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://Shaders/fog.gdshader" id="1_58gfx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_58gfx"]
+noise_type = 3
+frequency = 0.0015
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_1du6c"]
+noise = SubResource("FastNoiseLite_58gfx")
+
+[resource]
+resource_name = "FogAndSwayMaterial"
+shader = ExtResource("1_58gfx")
+shader_parameter/sway_enabled = true
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_1du6c")
+shader_parameter/sway_speed = 0.8
+shader_parameter/sway_strength = 2.0
+shader_parameter/fog_color = Color(0.725, 0.863, 1, 1)
+shader_parameter/fog_density = 0.2
+shader_parameter/fog_distance = 500.0
+shader_parameter/player_position = Vector2(0, 0)
+shader_parameter/vignette_strength = 0.1
