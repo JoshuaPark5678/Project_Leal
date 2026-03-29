@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://l4r4mvlj27cq"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_6tyjd"]
+[ext_resource type="Texture2D" uid="uid://dblvxb0nu15hb" path="res://assets/sprites/Bush/bush1/branches.png" id="3_bg704"]
+[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://Shaders/FogAndSwayMaterial.tres" id="4_qbpgu"]
+[ext_resource type="Texture2D" uid="uid://fayuwircmyub" path="res://assets/sprites/Bush/bush1/leaves.png" id="5_tb34q"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6tyjd"]
+radius = 15.033297
+
+[node name="bush_1" type="StaticBody2D" unique_id=243921608]
+
+[node name="Branches" type="Sprite2D" parent="." unique_id=317745091]
+material = ExtResource("1_6tyjd")
+texture = ExtResource("3_bg704")
+offset = Vector2(1.5, -42)
+
+[node name="Leaves" type="Sprite2D" parent="." unique_id=1751794840]
+material = ExtResource("4_qbpgu")
+texture = ExtResource("5_tb34q")
+offset = Vector2(1.5, -42)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897528280]
+position = Vector2(0, -23)
+shape = SubResource("CircleShape2D_6tyjd")

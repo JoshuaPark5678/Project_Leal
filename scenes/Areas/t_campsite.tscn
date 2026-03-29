@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://cqvue1of4rfrt"]
 
 [ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_7osm6"]
-[ext_resource type="Texture2D" uid="uid://dsqclw51bibwm" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
+[ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
 [ext_resource type="PackedScene" uid="uid://b6iw5ohtkpc4l" path="res://scenes/tree_1.tscn" id="2_oafpe"]
 [ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/player.tscn" id="3_fpjdh"]
 [ext_resource type="PackedScene" uid="uid://bam3uuo20yjug" path="res://scenes/tree_2.tscn" id="4_oafpe"]
@@ -10,7 +10,9 @@
 [ext_resource type="PackedScene" uid="uid://cnqb5f51m0r1n" path="res://scenes/tent3.tscn" id="6_fxpjw"]
 [ext_resource type="PackedScene" uid="uid://ct3241mo3bjde" path="res://scenes/campfire.tscn" id="6_yrpqc"]
 [ext_resource type="PackedScene" uid="uid://cptm5qxmgecu8" path="res://scenes/tent4.tscn" id="7_25rbn"]
+[ext_resource type="PackedScene" uid="uid://l4r4mvlj27cq" path="res://scenes/bush_1.tscn" id="10_fj1r8"]
 [ext_resource type="Script" uid="uid://lyugij160v7" path="res://scripts/FPSCounter.gd" id="11_jjqdx"]
+[ext_resource type="PackedScene" uid="uid://ij2hxaa0i3ll" path="res://scenes/tree_3.tscn" id="11_mvpe6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sv0yt"]
 texture = ExtResource("1_qmqsv")
@@ -239,7 +241,7 @@ y_sort_enabled = true
 [node name="Player" parent="World" unique_id=285414616 instance=ExtResource("3_fpjdh")]
 
 [node name="Camera2D" type="Camera2D" parent="World/Player" unique_id=98960233]
-zoom = Vector2(2.5, 2.5)
+zoom = Vector2(2, 2)
 process_callback = 0
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
@@ -269,13 +271,16 @@ position = Vector2(-199, -181)
 y_sort_enabled = true
 
 [node name="tree_1" parent="World/Tree_List" unique_id=1815045096 instance=ExtResource("2_oafpe")]
-position = Vector2(-89, -241)
+position = Vector2(-98, -242)
 
-[node name="tree_40" parent="World/Tree_List" unique_id=243921608 instance=ExtResource("2_oafpe")]
+[node name="tree_76" parent="World/Tree_List" unique_id=243921608 instance=ExtResource("2_oafpe")]
+position = Vector2(-115, -289)
+
+[node name="tree_40" parent="World/Tree_List" unique_id=1945940887 instance=ExtResource("2_oafpe")]
 position = Vector2(-186, -290)
 
 [node name="tree_41" parent="World/Tree_List" unique_id=1058777648 instance=ExtResource("2_oafpe")]
-position = Vector2(-269, -286)
+position = Vector2(-282, -294)
 
 [node name="tree_42" parent="World/Tree_List" unique_id=694214510 instance=ExtResource("2_oafpe")]
 position = Vector2(-330, -292)
@@ -302,16 +307,37 @@ position = Vector2(-422, 154)
 position = Vector2(-273, 240)
 
 [node name="tree_2" parent="World/Tree_List" unique_id=211812113 instance=ExtResource("2_oafpe")]
-position = Vector2(-19, -192)
+position = Vector2(-11, -167)
 
 [node name="tree_3" parent="World/Tree_List" unique_id=648231829 instance=ExtResource("2_oafpe")]
 position = Vector2(86, -137)
 
+[node name="tree_78" parent="World/Tree_List" unique_id=1368280727 instance=ExtResource("2_oafpe")]
+position = Vector2(119, -192)
+
+[node name="tree_79" parent="World/Tree_List" unique_id=35325291 instance=ExtResource("2_oafpe")]
+position = Vector2(119, -192)
+
+[node name="tree_80" parent="World/Tree_List" unique_id=592978263 instance=ExtResource("2_oafpe")]
+position = Vector2(286, -266)
+
 [node name="tree_4" parent="World/Tree_List" unique_id=652398111 instance=ExtResource("2_oafpe")]
 position = Vector2(199, -189)
 
+[node name="tree_82" parent="World/Tree_List" unique_id=1390334796 instance=ExtResource("2_oafpe")]
+position = Vector2(223, -237)
+
 [node name="tree_5" parent="World/Tree_List" unique_id=215525921 instance=ExtResource("2_oafpe")]
 position = Vector2(378, -82)
+
+[node name="tree_84" parent="World/Tree_List" unique_id=1171382978 instance=ExtResource("2_oafpe")]
+position = Vector2(356, -129)
+
+[node name="tree_85" parent="World/Tree_List" unique_id=1697379133 instance=ExtResource("2_oafpe")]
+position = Vector2(356, -129)
+
+[node name="tree_72" parent="World/Tree_List" unique_id=1319211746 instance=ExtResource("2_oafpe")]
+position = Vector2(12, -252)
 
 [node name="tree_63" parent="World/Tree_List" unique_id=1812695223 instance=ExtResource("2_oafpe")]
 position = Vector2(487, -55)
@@ -320,7 +346,7 @@ position = Vector2(487, -55)
 position = Vector2(334, -180)
 
 [node name="tree_65" parent="World/Tree_List" unique_id=1649160837 instance=ExtResource("2_oafpe")]
-position = Vector2(186, -265)
+position = Vector2(172, -274)
 
 [node name="tree_6" parent="World/Tree_List" unique_id=1067560282 instance=ExtResource("2_oafpe")]
 position = Vector2(421, 28)
@@ -329,7 +355,7 @@ position = Vector2(421, 28)
 position = Vector2(391, 147)
 
 [node name="tree_8" parent="World/Tree_List" unique_id=2007622746 instance=ExtResource("2_oafpe")]
-position = Vector2(211, 249)
+position = Vector2(413, 316)
 
 [node name="tree_58" parent="World/Tree_List" unique_id=2013798898 instance=ExtResource("2_oafpe")]
 position = Vector2(313, 234)
@@ -342,6 +368,15 @@ position = Vector2(44, 292)
 
 [node name="tree_10" parent="World/Tree_List" unique_id=824277586 instance=ExtResource("2_oafpe")]
 position = Vector2(-135, 234)
+
+[node name="tree_92" parent="World/Tree_List" unique_id=1284619506 instance=ExtResource("2_oafpe")]
+position = Vector2(-120, 312)
+
+[node name="tree_93" parent="World/Tree_List" unique_id=755658676 instance=ExtResource("2_oafpe")]
+position = Vector2(-329, 321)
+
+[node name="tree_121" parent="World/Tree_List" unique_id=1634232075 instance=ExtResource("2_oafpe")]
+position = Vector2(-351, 194)
 
 [node name="tree_11" parent="World/Tree_List" unique_id=1952962776 instance=ExtResource("2_oafpe")]
 position = Vector2(-322, 184)
@@ -373,11 +408,23 @@ position = Vector2(-222, -288)
 [node name="tree_18" parent="World/Tree_List" unique_id=1444029609 instance=ExtResource("4_oafpe")]
 position = Vector2(33, -164)
 
+[node name="tree_73" parent="World/Tree_List" unique_id=1122855630 instance=ExtResource("4_oafpe")]
+position = Vector2(126, -253)
+
+[node name="tree_74" parent="World/Tree_List" unique_id=906730791 instance=ExtResource("4_oafpe")]
+position = Vector2(-91, -314)
+
+[node name="tree_75" parent="World/Tree_List" unique_id=333495441 instance=ExtResource("4_oafpe")]
+position = Vector2(-63, -239)
+
 [node name="tree_19" parent="World/Tree_List" unique_id=1942890225 instance=ExtResource("4_oafpe")]
 position = Vector2(-146, -259)
 
 [node name="tree_20" parent="World/Tree_List" unique_id=1716767246 instance=ExtResource("4_oafpe")]
 position = Vector2(139, -188)
+
+[node name="tree_77" parent="World/Tree_List" unique_id=344416004 instance=ExtResource("4_oafpe")]
+position = Vector2(37, -246)
 
 [node name="tree_21" parent="World/Tree_List" unique_id=1005687991 instance=ExtResource("4_oafpe")]
 position = Vector2(295, -162)
@@ -407,7 +454,16 @@ position = Vector2(-210, 204)
 position = Vector2(-319, 276)
 
 [node name="tree_50" parent="World/Tree_List" unique_id=1923575896 instance=ExtResource("4_oafpe")]
-position = Vector2(-242, 262)
+position = Vector2(-243, 252)
+
+[node name="tree_94" parent="World/Tree_List" unique_id=904472436 instance=ExtResource("4_oafpe")]
+position = Vector2(-192, 296)
+
+[node name="tree_95" parent="World/Tree_List" unique_id=1374961680 instance=ExtResource("4_oafpe")]
+position = Vector2(-236, 346)
+
+[node name="tree_96" parent="World/Tree_List" unique_id=1008238970 instance=ExtResource("4_oafpe")]
+position = Vector2(-188, 377)
 
 [node name="tree_51" parent="World/Tree_List" unique_id=2028430511 instance=ExtResource("4_oafpe")]
 position = Vector2(-162, 301)
@@ -428,7 +484,25 @@ position = Vector2(164, 315)
 position = Vector2(229, 338)
 
 [node name="tree_57" parent="World/Tree_List" unique_id=2079261423 instance=ExtResource("4_oafpe")]
-position = Vector2(336, 318)
+position = Vector2(330, 307)
+
+[node name="tree_86" parent="World/Tree_List" unique_id=1617843913 instance=ExtResource("4_oafpe")]
+position = Vector2(369, 275)
+
+[node name="tree_87" parent="World/Tree_List" unique_id=2057008359 instance=ExtResource("4_oafpe")]
+position = Vector2(447, 285)
+
+[node name="tree_88" parent="World/Tree_List" unique_id=1839778344 instance=ExtResource("4_oafpe")]
+position = Vector2(490, 202)
+
+[node name="tree_89" parent="World/Tree_List" unique_id=684515986 instance=ExtResource("4_oafpe")]
+position = Vector2(535, 134)
+
+[node name="tree_90" parent="World/Tree_List" unique_id=346791147 instance=ExtResource("4_oafpe")]
+position = Vector2(455, 32)
+
+[node name="tree_91" parent="World/Tree_List" unique_id=69627637 instance=ExtResource("4_oafpe")]
+position = Vector2(-51, 340)
 
 [node name="tree_60" parent="World/Tree_List" unique_id=2034538212 instance=ExtResource("4_oafpe")]
 position = Vector2(430, 216)
@@ -437,10 +511,28 @@ position = Vector2(430, 216)
 position = Vector2(489, 74)
 
 [node name="tree_62" parent="World/Tree_List" unique_id=1867893712 instance=ExtResource("4_oafpe")]
-position = Vector2(444, -125)
+position = Vector2(451, -150)
 
 [node name="tree_29" parent="World/Tree_List" unique_id=1746592058 instance=ExtResource("4_oafpe")]
 position = Vector2(-380, 218)
+
+[node name="tree_97" parent="World/Tree_List" unique_id=1120405879 instance=ExtResource("4_oafpe")]
+position = Vector2(-365, 296)
+
+[node name="tree_98" parent="World/Tree_List" unique_id=952192575 instance=ExtResource("4_oafpe")]
+position = Vector2(-427, 262)
+
+[node name="tree_99" parent="World/Tree_List" unique_id=402462510 instance=ExtResource("4_oafpe")]
+position = Vector2(-509, 178)
+
+[node name="tree_118" parent="World/Tree_List" unique_id=399104659 instance=ExtResource("4_oafpe")]
+position = Vector2(-623, 125)
+
+[node name="tree_119" parent="World/Tree_List" unique_id=1339422124 instance=ExtResource("4_oafpe")]
+position = Vector2(-527, 264)
+
+[node name="tree_120" parent="World/Tree_List" unique_id=1526967520 instance=ExtResource("4_oafpe")]
+position = Vector2(-409, 315)
 
 [node name="tree_30" parent="World/Tree_List" unique_id=1146123115 instance=ExtResource("4_oafpe")]
 position = Vector2(-460, 49)
@@ -458,13 +550,19 @@ position = Vector2(-175, -339)
 position = Vector2(-297, -322)
 
 [node name="tree_36" parent="World/Tree_List" unique_id=1028726525 instance=ExtResource("4_oafpe")]
-position = Vector2(-46, -254)
+position = Vector2(-15, -265)
 
 [node name="tree_37" parent="World/Tree_List" unique_id=999788996 instance=ExtResource("4_oafpe")]
 position = Vector2(78, -221)
 
 [node name="tree_38" parent="World/Tree_List" unique_id=1133934442 instance=ExtResource("4_oafpe")]
 position = Vector2(248, -230)
+
+[node name="tree_81" parent="World/Tree_List" unique_id=1965601395 instance=ExtResource("4_oafpe")]
+position = Vector2(183, -193)
+
+[node name="tree_83" parent="World/Tree_List" unique_id=305654555 instance=ExtResource("4_oafpe")]
+position = Vector2(409, -118)
 
 [node name="tree_66" parent="World/Tree_List" unique_id=86297451 instance=ExtResource("4_oafpe")]
 position = Vector2(337, -246)
@@ -481,10 +579,83 @@ position = Vector2(-558, -179)
 [node name="tree_71" parent="World/Tree_List" unique_id=715037902 instance=ExtResource("4_oafpe")]
 position = Vector2(-537, -232)
 
+[node name="bush_1" parent="World/Tree_List" unique_id=1048003168 instance=ExtResource("10_fj1r8")]
+position = Vector2(-388, -270)
+
+[node name="bush_2" parent="World/Tree_List" unique_id=83338262 instance=ExtResource("10_fj1r8")]
+position = Vector2(-471, -100)
+
+[node name="bush_3" parent="World/Tree_List" unique_id=744651979 instance=ExtResource("10_fj1r8")]
+position = Vector2(-417, 61)
+
+[node name="bush_4" parent="World/Tree_List" unique_id=1513204984 instance=ExtResource("10_fj1r8")]
+position = Vector2(249, -185)
+
+[node name="bush_6" parent="World/Tree_List" unique_id=757929814 instance=ExtResource("10_fj1r8")]
+position = Vector2(186, 197)
+
+[node name="bush_5" parent="World/Tree_List" unique_id=1931386652 instance=ExtResource("10_fj1r8")]
+position = Vector2(396, -18)
+
+[node name="tree_100" parent="World/Tree_List" unique_id=1072152000 instance=ExtResource("11_mvpe6")]
+position = Vector2(330, 55)
+
+[node name="tree_101" parent="World/Tree_List" unique_id=215468903 instance=ExtResource("11_mvpe6")]
+position = Vector2(-560, 99)
+
+[node name="tree_102" parent="World/Tree_List" unique_id=1212139621 instance=ExtResource("11_mvpe6")]
+position = Vector2(-602, -7)
+
+[node name="tree_105" parent="World/Tree_List" unique_id=1288403978 instance=ExtResource("11_mvpe6")]
+position = Vector2(-403, -315)
+
+[node name="tree_106" parent="World/Tree_List" unique_id=94939023 instance=ExtResource("11_mvpe6")]
+position = Vector2(-248, -305)
+
+[node name="tree_107" parent="World/Tree_List" unique_id=775838105 instance=ExtResource("11_mvpe6")]
+position = Vector2(-26, -199)
+
+[node name="tree_108" parent="World/Tree_List" unique_id=776044008 instance=ExtResource("11_mvpe6")]
+position = Vector2(203, -267)
+
+[node name="tree_109" parent="World/Tree_List" unique_id=345649687 instance=ExtResource("11_mvpe6")]
+position = Vector2(500, -79)
+
+[node name="tree_110" parent="World/Tree_List" unique_id=2093922358 instance=ExtResource("11_mvpe6")]
+position = Vector2(546, 45)
+
+[node name="tree_111" parent="World/Tree_List" unique_id=633992862 instance=ExtResource("11_mvpe6")]
+position = Vector2(511, 277)
+
+[node name="tree_112" parent="World/Tree_List" unique_id=577448738 instance=ExtResource("11_mvpe6")]
+position = Vector2(125, 332)
+
+[node name="tree_113" parent="World/Tree_List" unique_id=1802002519 instance=ExtResource("11_mvpe6")]
+position = Vector2(223, 298)
+
+[node name="tree_114" parent="World/Tree_List" unique_id=1731926629 instance=ExtResource("11_mvpe6")]
+position = Vector2(-126, 394)
+
+[node name="tree_115" parent="World/Tree_List" unique_id=498603527 instance=ExtResource("11_mvpe6")]
+position = Vector2(-283, 347)
+
+[node name="tree_116" parent="World/Tree_List" unique_id=2098603715 instance=ExtResource("11_mvpe6")]
+position = Vector2(-474, 246)
+
+[node name="tree_117" parent="World/Tree_List" unique_id=2139357279 instance=ExtResource("11_mvpe6")]
+position = Vector2(-567, 204)
+
+[node name="tree_103" parent="World/Tree_List" unique_id=688185471 instance=ExtResource("11_mvpe6")]
+position = Vector2(-602, -149)
+
+[node name="tree_104" parent="World/Tree_List" unique_id=1377009207 instance=ExtResource("11_mvpe6")]
+position = Vector2(-541, -266)
+
 [node name="Campfire" parent="World" unique_id=236144253 instance=ExtResource("6_yrpqc")]
 position = Vector2(88, 15)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=829947925]
+visible = false
 
 [node name="Control" type="Control" parent="CanvasLayer" unique_id=924331]
 layout_mode = 3

@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ij2hxaa0i3ll"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_0b1i4"]
+[ext_resource type="Texture2D" uid="uid://37ihresafldg" path="res://assets/sprites/Trees/tree3/trunk.png" id="2_27jge"]
+[ext_resource type="Texture2D" uid="uid://cv1wicoot2lnx" path="res://assets/sprites/Trees/tree3/leaves.png" id="4_0b1i4"]
+[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://Shaders/FogAndSwayMaterial.tres" id="4_woy2v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
+size = Vector2(6, 9)
+
+[node name="tree_1" type="StaticBody2D" unique_id=243921608]
+
+[node name="Trunk" type="Sprite2D" parent="." unique_id=152213156]
+material = ExtResource("1_0b1i4")
+texture = ExtResource("2_27jge")
+offset = Vector2(0, -64)
+
+[node name="Leaves" type="Sprite2D" parent="." unique_id=308720278]
+material = ExtResource("4_woy2v")
+texture = ExtResource("4_0b1i4")
+offset = Vector2(0, -64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897528280]
+position = Vector2(0, -14)
+shape = SubResource("RectangleShape2D_tem7l")
