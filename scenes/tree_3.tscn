@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://ij2hxaa0i3ll"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_0b1i4"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_0b1i4"]
 [ext_resource type="Texture2D" uid="uid://37ihresafldg" path="res://assets/sprites/Trees/tree3/trunk.png" id="2_27jge"]
 [ext_resource type="Texture2D" uid="uid://cv1wicoot2lnx" path="res://assets/sprites/Trees/tree3/leaves.png" id="4_0b1i4"]
-[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://Shaders/FogAndSwayMaterial.tres" id="4_woy2v"]
+[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_woy2v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
 size = Vector2(6, 9)

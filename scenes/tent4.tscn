@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://cptm5qxmgecu8"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_v88v6"]
-[ext_resource type="Texture2D" uid="uid://nhplrqo5lx25" path="res://assets/sprites/Tents/tent4.png" id="2_v88v6"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_v88v6"]
+[ext_resource type="Texture2D" uid="uid://crq4m2g7nlmp7" path="res://assets/sprites/Tents/tent4.png" id="2_v88v6"]
+
 
 [node name="Tent" type="StaticBody2D" unique_id=153027652]
 

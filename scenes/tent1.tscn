@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://b20xgsiuc2ouy"]
 
-[ext_resource type="Texture2D" uid="uid://wahfegmloieb" path="res://assets/sprites/Tents/tent1.png" id="1_h6gn8"]
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_iivji"]
+[ext_resource type="Texture2D" uid="uid://bigexrmhk30xd" path="res://assets/sprites/Tents/tent1.png" id="1_h6gn8"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_iivji"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iivji"]
 size = Vector2(80, 40)

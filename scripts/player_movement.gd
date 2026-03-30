@@ -64,14 +64,19 @@ func _physics_process(delta):
 	if movement.length() > 1:
 		movement = movement.normalized()
 
-	velocity = movement * move_speed
+	# Apply attack speed penalty
+	var current_speed = move_speed
+	if combat.is_attacking:
+		current_speed *= 0.5
+
+	velocity = movement * current_speed
 	move_and_slide()
 
 	if movement != Vector2.ZERO:
 		facing_direction = movement
 
 	# ---- Roll Input ----
-	if Input.is_action_just_pressed("roll") and roll_cooldown_timer <= 0 and movement != Vector2.ZERO:
+	if Input.is_action_just_pressed("roll") and roll_cooldown_timer <= 0 and movement != Vector2.ZERO and not combat.is_attacking:
 		start_roll()
 	
 	# ---- Equip Input ----

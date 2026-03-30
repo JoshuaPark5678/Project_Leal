@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://cqvue1of4rfrt"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_7osm6"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_7osm6"]
 [ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
 [ext_resource type="PackedScene" uid="uid://b6iw5ohtkpc4l" path="res://scenes/tree_1.tscn" id="2_oafpe"]
-[ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/player.tscn" id="3_fpjdh"]
+[ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/Player/player.tscn" id="3_fpjdh"]
 [ext_resource type="PackedScene" uid="uid://bam3uuo20yjug" path="res://scenes/tree_2.tscn" id="4_oafpe"]
 [ext_resource type="PackedScene" uid="uid://b20xgsiuc2ouy" path="res://scenes/tent1.tscn" id="5_fpjdh"]
 [ext_resource type="PackedScene" uid="uid://cf0ycfoh8s8yi" path="res://scenes/tent2.tscn" id="5_scju6"]
