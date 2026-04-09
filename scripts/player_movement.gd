@@ -135,6 +135,9 @@ func update_animation():
 		play_idle()
 		return
 	
+	is_blinking = false
+	reset_blink_timer()
+	
 	var prefix = "axe_" if combat.is_equipped else ""
 	
 	if abs(movement.x) > abs(movement.y):

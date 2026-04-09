@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://dtja1vakc7arw"]
 
-[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://shaders/fog.gdshader" id="1_58gfx"]
+[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://Shaders/fog.gdshader" id="1_58gfx"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_58gfx"]
 noise_type = 3

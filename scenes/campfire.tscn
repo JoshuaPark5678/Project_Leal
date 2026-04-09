@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://ct3241mo3bjde"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_54scn"]
-[ext_resource type="Texture2D" uid="uid://cyna35so6dhfx" path="res://assets/sprites/Campfire/campfire_sprite.png" id="1_m47ar"]
-
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_54scn"]
+[ext_resource type="Texture2D" uid="uid://ctrv227i7stoa" path="res://assets/sprites/Campfire/campfire_sprite.png" id="1_m47ar"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_54scn"]
 atlas = ExtResource("1_m47ar")
