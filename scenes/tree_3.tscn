@@ -18,7 +18,7 @@ offset = Vector2(0, -64)
 [node name="Leaves" type="Sprite2D" parent="." unique_id=308720278]
 material = ExtResource("4_woy2v")
 texture = ExtResource("4_0b1i4")
-offset = Vector2(0, -64)
+offset = Vector2(0, -85)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897528280]
 position = Vector2(0, -14)

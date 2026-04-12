@@ -1,10 +1,19 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://dtja1vakc7arw"]
 
-[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://Shaders/fog.gdshader" id="1_58gfx"]
+[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://shaders/fog.gdshader" id="1_58gfx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_3wwon"]
+noise_type = 3
+frequency = 0.5
+domain_warp_enabled = true
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_x7dn5"]
+generate_mipmaps = false
+noise = SubResource("FastNoiseLite_3wwon")
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_58gfx"]
-noise_type = 3
-frequency = 0.0015
+frequency = 0.008
+domain_warp_enabled = true
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_1du6c"]
 noise = SubResource("FastNoiseLite_58gfx")
@@ -12,13 +21,23 @@ noise = SubResource("FastNoiseLite_58gfx")
 [resource]
 resource_name = "FogAndSwayMaterial"
 shader = ExtResource("1_58gfx")
-shader_parameter/shader_enabled = true
+shader_parameter/shader_enabled = false
 shader_parameter/sway_enabled = true
 shader_parameter/noise_texture = SubResource("NoiseTexture2D_1du6c")
-shader_parameter/sway_speed = 0.8
-shader_parameter/sway_strength = 2.0
+shader_parameter/sway_speed = 0.6000000285
+shader_parameter/sway_strength = 1.0000000475
+shader_parameter/fog_noise = SubResource("NoiseTexture2D_x7dn5")
 shader_parameter/fog_color = Color(0.725, 0.863, 1, 1)
-shader_parameter/fog_density = 0.2
-shader_parameter/fog_distance = 500.0
+shader_parameter/fog_density = 0.50000002375
+shader_parameter/fog_distance = 400.000019
+shader_parameter/fog_noise_strength = 80.0
+shader_parameter/fog_noise_scale = 0.005
+shader_parameter/min_visibility = 0.10000000475
+shader_parameter/max_visibility = 0.90000004275
 shader_parameter/player_position = Vector2(0, 0)
-shader_parameter/vignette_strength = 0.1
+shader_parameter/campfire_position = Vector2(0, 0)
+shader_parameter/campfire_distance = 200.0
+shader_parameter/campfire_active = false
+shader_parameter/campfire_light_color = Color(1, 0.70072466, 0.3532939, 1)
+shader_parameter/campfire_light_distance = 150.0
+shader_parameter/campfire_light_intensity = 0.400000019

@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://ct3241mo3bjde"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_54scn"]
-[ext_resource type="Texture2D" uid="uid://ctrv227i7stoa" path="res://assets/sprites/Campfire/campfire_sprite.png" id="1_m47ar"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_54scn"]
+[ext_resource type="Texture2D" uid="uid://cyna35so6dhfx" path="res://assets/sprites/Campfire/campfire_sprite.png" id="1_m47ar"]
+[ext_resource type="Script" uid="uid://ds82tnehxx65h" path="res://scripts/campfire.gd" id="1_yfrnb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_54scn"]
 atlas = ExtResource("1_m47ar")
@@ -57,13 +58,15 @@ animations = [{
 size = Vector2(28.68217, 18.181816)
 
 [node name="Campfire" type="StaticBody2D" unique_id=236144253]
+script = ExtResource("1_yfrnb")
+y_offset = -20.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=249006589]
 material = ExtResource("1_54scn")
 sprite_frames = SubResource("SpriteFrames_w2pjx")
 animation = &"Flames"
 autoplay = "Flames"
-offset = Vector2(0, -21.38)
+offset = Vector2(0, -22)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1571271417]
 position = Vector2(-0.50000024, -10)

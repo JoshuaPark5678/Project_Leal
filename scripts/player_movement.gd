@@ -31,7 +31,9 @@ func _ready():
 	reset_blink_timer()
 	sprite.animation_finished.connect(_on_animation_finished)
 	find_all_fog_materials(get_tree().root)
+	enable_all_shaders(true)
 
+# SHADER SHINANIGANS
 
 func find_all_fog_materials(node: Node) -> void:
 	for child in node.get_children():
@@ -41,6 +43,9 @@ func find_all_fog_materials(node: Node) -> void:
 				fog_materials.append(mat)
 		find_all_fog_materials(child)
 
+func enable_all_shaders(enable = true) -> void:
+	for mat in fog_materials:
+		mat.set_shader_parameter("shader_enabled", enable)
 
 func _physics_process(delta):
 

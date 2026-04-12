@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://byaw0ynke0ucx"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_5jno2"]
+[ext_resource type="Texture2D" uid="uid://26anha2oommq" path="res://assets/sprites/Props/shed.png" id="1_422rr"]
+
+[node name="shed" type="StaticBody2D" unique_id=1080380488]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=27021043]
+material = ExtResource("1_5jno2")
+texture = ExtResource("1_422rr")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=43047698]
+polygon = PackedVector2Array(36, 24, 17, 30, -28, 6, -11, 0, 2, -4)

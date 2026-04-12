@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b45pxie7k46bl"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_hmj1u"]
+[ext_resource type="Texture2D" uid="uid://dt0n0x8n3hlr2" path="res://assets/sprites/Props/nature.png" id="2_04xd7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5yrgr"]
+atlas = ExtResource("2_04xd7")
+region = Rect2(31.392048, 20.679363, 25.016724, 26.659885)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nkco8"]
+size = Vector2(12, 5)
+
+[node name="rock_2" type="StaticBody2D" unique_id=1592957634]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=593532899]
+material = ExtResource("1_hmj1u")
+texture = SubResource("AtlasTexture_5yrgr")
+offset = Vector2(0, -6.33)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=894437688]
+position = Vector2(0, -5.5)
+shape = SubResource("RectangleShape2D_nkco8")

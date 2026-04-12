@@ -2,10 +2,8 @@
 
 [ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_b2jax"]
 [ext_resource type="Texture2D" uid="uid://nuniinj67mpp" path="res://assets/sprites/Trees/tree1/tree_1_trunk.png" id="3_pe641"]
+[ext_resource type="Texture2D" uid="uid://qc38b85m42dq" path="res://assets/sprites/Trees/tree1/tree_1_leaves.png" id="4_1du6c"]
 [ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_pe641"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pe641"]
-load_path = "res://.godot/imported/tree_1_leaves.png-d2ce40601d23d4dfe9c24970f9e276be.ctex"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
 size = Vector2(2, 4)
@@ -19,7 +17,7 @@ offset = Vector2(-1, -32)
 
 [node name="Leaves" type="Sprite2D" parent="." unique_id=1751794840]
 material = ExtResource("4_pe641")
-texture = SubResource("CompressedTexture2D_pe641")
+texture = ExtResource("4_1du6c")
 offset = Vector2(-1, -32)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897528280]
