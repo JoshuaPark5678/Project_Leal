@@ -4,7 +4,7 @@ extends Node2D
 @export var attack_cooldown := 0.5
 @export var max_health := 100
 @export var invincibility_duration := 1.0
-@export var slash_offset := 10.0  # Distance to offset the slash effect
+@export var slash_offset := 12.0  # Distance to offset the slash effect
 @export var slash_scene: PackedScene  # Slash effect scene to instantiate
 
 @onready var player = get_parent() as CharacterBody2D
@@ -73,12 +73,15 @@ func attack():
 	if slash_scene:
 		var slash_instance = slash_scene.instantiate()
 		player.get_parent().add_child(slash_instance)
-		slash_instance.global_position = player.global_position + direction_to_mouse * slash_offset
+		slash_instance.global_position = Vector2(0, -10) + player.global_position + direction_to_mouse * slash_offset
 		slash_instance.rotation = direction_to_mouse.angle() + PI/2
 		
 		# Play the slash animation
 		var slash_sprite = slash_instance.get_node("AnimatedSprite2D")
 		if slash_sprite:
+			# Flip the Slash horizontally if looking down or right
+			if direction_to_mouse.y > 0 or direction_to_mouse.x > 0:
+				slash_sprite.flip_h = true
 			slash_sprite.play("slash")
 	
 	# Choose animation based on mouse direction
