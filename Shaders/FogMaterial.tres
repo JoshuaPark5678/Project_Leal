@@ -35,5 +35,5 @@ shader_parameter/campfire_position = Vector2(0, 0)
 shader_parameter/campfire_distance = 200.0
 shader_parameter/campfire_active = false
 shader_parameter/campfire_light_color = Color(1, 0.7019608, 0.3529412, 1)
-shader_parameter/campfire_light_distance = 150.0
-shader_parameter/campfire_light_intensity = 0.400000019
+shader_parameter/campfire_light_distance = 200.0000095
+shader_parameter/campfire_light_intensity = 0.50000002375

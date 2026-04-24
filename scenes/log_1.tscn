@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cu8fvuuma3j3h"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_aiuil"]
+[ext_resource type="Texture2D" uid="uid://d4iboqke32hxw" path="res://assets/sprites/Props/log_1.png" id="2_aiuil"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nkco8"]
+size = Vector2(28, 0.5)
+
+[node name="log_1" type="StaticBody2D" unique_id=1592957634]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=593532899]
+material = ExtResource("1_aiuil")
+texture = ExtResource("2_aiuil")
+offset = Vector2(0, -4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=894437688]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_nkco8")
+one_way_collision = true
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=129062988]
+position = Vector2(0, -9)
+rotation = 3.1415927
+shape = SubResource("RectangleShape2D_nkco8")
+one_way_collision = true

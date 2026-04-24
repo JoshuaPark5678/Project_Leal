@@ -3,6 +3,7 @@
 [ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_7osm6"]
 [ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
 [ext_resource type="PackedScene" uid="uid://b6iw5ohtkpc4l" path="res://scenes/tree_1.tscn" id="2_oafpe"]
+[ext_resource type="Texture2D" uid="uid://0g7rxa5j1cvb" path="res://assets/tilemaps/special_tiles_1.png" id="3_634y8"]
 [ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/Player/player.tscn" id="3_fpjdh"]
 [ext_resource type="PackedScene" uid="uid://ct3241mo3bjde" path="res://scenes/campfire.tscn" id="4_mvpe6"]
 [ext_resource type="PackedScene" uid="uid://bam3uuo20yjug" path="res://scenes/tree_2.tscn" id="4_oafpe"]
@@ -12,10 +13,12 @@
 [ext_resource type="PackedScene" uid="uid://cnqb5f51m0r1n" path="res://scenes/tent3.tscn" id="6_fxpjw"]
 [ext_resource type="PackedScene" uid="uid://cptm5qxmgecu8" path="res://scenes/tent4.tscn" id="7_25rbn"]
 [ext_resource type="PackedScene" uid="uid://b45pxie7k46bl" path="res://scenes/rock_2.tscn" id="7_j7ok2"]
+[ext_resource type="PackedScene" uid="uid://c2hfxpvk5qxxx" path="res://scenes/log_2.tscn" id="8_tyd7y"]
 [ext_resource type="PackedScene" uid="uid://l4r4mvlj27cq" path="res://scenes/bush_1.tscn" id="10_fj1r8"]
 [ext_resource type="Script" uid="uid://lyugij160v7" path="res://scripts/FPSCounter.gd" id="11_jjqdx"]
 [ext_resource type="PackedScene" uid="uid://ij2hxaa0i3ll" path="res://scenes/tree_3.tscn" id="11_mvpe6"]
 [ext_resource type="PackedScene" uid="uid://c3clevmtei5yi" path="res://scenes/rock_1.tscn" id="14_j3614"]
+[ext_resource type="PackedScene" uid="uid://cu8fvuuma3j3h" path="res://scenes/log_1.tscn" id="17_tyd7y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j7ok2"]
 texture = ExtResource("1_qmqsv")
@@ -216,13 +219,44 @@ texture = ExtResource("1_qmqsv")
 3:16/0 = 0
 6:15/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tyd7y"]
+texture = ExtResource("3_634y8")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_r3fxq"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_j7ok2")
+sources/1 = SubResource("TileSetAtlasSource_tyd7y")
 
 [node name="T_Campsite" type="Node2D" unique_id=981647814]
 
 [node name="Tiles" type="Node2D" parent="." unique_id=1092407762]
 material = ExtResource("1_7osm6")
+
+[node name="Special Tiles" type="Node2D" parent="Tiles" unique_id=1581642861]
+
+[node name="Walls" type="TileMapLayer" parent="Tiles/Special Tiles" unique_id=1725616203]
+z_index = 1000
+z_as_relative = false
+use_parent_material = true
+tile_map_data = PackedByteArray("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")
+tile_set = SubResource("TileSet_r3fxq")
 
 [node name="Ground1" type="TileMapLayer" parent="Tiles" unique_id=1172796634]
 use_parent_material = true
@@ -245,33 +279,35 @@ use_parent_material = true
 tile_set = SubResource("TileSet_r3fxq")
 
 [node name="World" type="Node2D" parent="." unique_id=872979763]
+visible = false
 y_sort_enabled = true
 
-[node name="Player" parent="World" unique_id=285414616 instance=ExtResource("3_fpjdh")]
+[node name="Objects" type="Node2D" parent="World" unique_id=2006997670]
+y_sort_enabled = true
 
-[node name="Camera2D" type="Camera2D" parent="World/Player" unique_id=98960233]
-zoom = Vector2(2, 2)
-process_callback = 0
-position_smoothing_enabled = true
-position_smoothing_speed = 8.0
-drag_left_margin = 0.1
-drag_top_margin = 0.1
-drag_right_margin = 0.1
-drag_bottom_margin = 0.1
-editor_draw_limits = true
-editor_draw_drag_margin = true
-
-[node name="Campfire" parent="World" unique_id=236144253 instance=ExtResource("4_mvpe6")]
+[node name="Campfire" parent="World/Objects" unique_id=236144253 instance=ExtResource("4_mvpe6")]
 position = Vector2(-271, 55)
 
-[node name="shed" parent="World" unique_id=1080380488 instance=ExtResource("5_o57ci")]
+[node name="shed" parent="World/Objects" unique_id=1080380488 instance=ExtResource("5_o57ci")]
 position = Vector2(-64, -129)
 
-[node name="rock_1" parent="World" unique_id=1592957634 instance=ExtResource("14_j3614")]
+[node name="rock_1" parent="World/Objects" unique_id=1592957634 instance=ExtResource("14_j3614")]
 position = Vector2(-181, -156)
 
-[node name="rock_2" parent="World" unique_id=594496560 instance=ExtResource("7_j7ok2")]
+[node name="rock_2" parent="World/Objects" unique_id=594496560 instance=ExtResource("7_j7ok2")]
 position = Vector2(-417, -51)
+
+[node name="log_1" parent="World/Objects" unique_id=113244593 instance=ExtResource("17_tyd7y")]
+position = Vector2(-301, 23)
+
+[node name="log_2" parent="World/Objects" unique_id=1242015956 instance=ExtResource("8_tyd7y")]
+position = Vector2(-241, 23)
+
+[node name="log_3" parent="World/Objects" unique_id=964239381 instance=ExtResource("17_tyd7y")]
+position = Vector2(-241, 76)
+
+[node name="log_4" parent="World/Objects" unique_id=152779922 instance=ExtResource("8_tyd7y")]
+position = Vector2(-301, 76)
 
 [node name="Tents" type="Node2D" parent="World" unique_id=1097464375]
 y_sort_enabled = true
@@ -576,8 +612,22 @@ position = Vector2(-649, 24)
 [node name="tree_110" parent="World/Tree_List" unique_id=1404104368 instance=ExtResource("11_mvpe6")]
 position = Vector2(-629, 144)
 
+[node name="Player" parent="World" unique_id=285414616 instance=ExtResource("3_fpjdh")]
+position = Vector2(-131, -36)
+
+[node name="Camera2D" type="Camera2D" parent="World/Player" unique_id=98960233]
+zoom = Vector2(2, 2)
+process_callback = 0
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+drag_left_margin = 0.1
+drag_top_margin = 0.1
+drag_right_margin = 0.1
+drag_bottom_margin = 0.1
+editor_draw_limits = true
+editor_draw_drag_margin = true
+
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=829947925]
-visible = false
 
 [node name="Control" type="Control" parent="CanvasLayer" unique_id=924331]
 layout_mode = 3
