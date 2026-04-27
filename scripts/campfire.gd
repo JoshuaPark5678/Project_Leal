@@ -8,7 +8,7 @@ var fog_materials: Array[ShaderMaterial] = []
 
 func _ready():
     find_all_fog_materials(get_tree().root)
-    print("Campfire found ", fog_materials.size(), " materials")
+    # print("Campfire found ", fog_materials.size(), " materials")
 
 func find_all_fog_materials(node: Node) -> void:
     for child in node.get_children():

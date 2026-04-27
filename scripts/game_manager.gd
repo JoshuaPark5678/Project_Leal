@@ -45,7 +45,6 @@ func _fade(target: float) -> void:
 	# add a ColorRect to InteractManager's CanvasLayer for this
 	# or handle it however your UI is set up
 	if fade_overlay:
-		print("overlay found")
 		var tween = create_tween()
 		tween.tween_property(fade_overlay, "modulate:a", target, 0.4)
 		await tween.finished

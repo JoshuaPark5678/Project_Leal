@@ -100,3 +100,4 @@ position = Vector2(-8, 34)
 position = Vector2(-8, 51)
 teleport = true
 scene_path = "uid://cqvue1of4rfrt"
+destination_marker = "TentExit"
