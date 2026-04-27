@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://btyxu00rcagw2"]
+
+[ext_resource type="PackedScene" uid="uid://brth87uhkqvdu" path="res://scenes/grass_B.tscn" id="1_8yfsc"]
+
+[node name="grasspatch_B" type="Node2D" unique_id=1722574454]
+y_sort_enabled = true
+
+[node name="grass1" parent="." unique_id=686814752 instance=ExtResource("1_8yfsc")]
+position = Vector2(-1, 0)
+
+[node name="grass2" parent="." unique_id=1364593244 instance=ExtResource("1_8yfsc")]
+position = Vector2(5, 3)
+
+[node name="grass3" parent="." unique_id=491090699 instance=ExtResource("1_8yfsc")]
+position = Vector2(-5, 3)
+
+[node name="grass4" parent="." unique_id=79897281 instance=ExtResource("1_8yfsc")]
+position = Vector2(-11, 0)
+
+[node name="grass5" parent="." unique_id=460370854 instance=ExtResource("1_8yfsc")]
+position = Vector2(10, 1)
+
+[node name="grass6" parent="." unique_id=1367516471 instance=ExtResource("1_8yfsc")]
+position = Vector2(1, 5)
+
+[node name="grass7" parent="." unique_id=529804109 instance=ExtResource("1_8yfsc")]
+position = Vector2(-9, 5)
+
+[node name="grass8" parent="." unique_id=611161128 instance=ExtResource("1_8yfsc")]
+position = Vector2(10, 5)

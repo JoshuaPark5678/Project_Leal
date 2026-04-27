@@ -5,8 +5,8 @@
 [ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_qbpgu"]
 [ext_resource type="Texture2D" uid="uid://fayuwircmyub" path="res://assets/sprites/Bush/bush1/leaves.png" id="5_tb34q"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_6tyjd"]
-radius = 18.027756
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6tyjd"]
+size = Vector2(18, 13)
 
 [node name="bush_1" type="StaticBody2D" unique_id=243921608]
 
@@ -21,5 +21,5 @@ texture = ExtResource("5_tb34q")
 offset = Vector2(1.5, -42)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897528280]
-position = Vector2(0, -18)
-shape = SubResource("CircleShape2D_6tyjd")
+position = Vector2(0, -14.5)
+shape = SubResource("RectangleShape2D_6tyjd")

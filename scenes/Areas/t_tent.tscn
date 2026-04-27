@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://5gk24pi4dvaa"]
 
+[ext_resource type="PackedScene" uid="uid://c2eakbmkc7pev" path="res://scenes/interact.tscn" id="2_0jboo"]
 [ext_resource type="Texture2D" uid="uid://bhvf4d8mc8oug" path="res://assets/tilemaps/tent_tiles_1.png" id="2_rqn2a"]
-[ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/Player/player.tscn" id="3_rqn2a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0jboo"]
 texture = ExtResource("2_rqn2a")
@@ -72,9 +72,11 @@ texture = ExtResource("2_rqn2a")
 [sub_resource type="TileSet" id="TileSet_d2ab0"]
 sources/1 = SubResource("TileSetAtlasSource_0jboo")
 
-[node name="t_tent" type="Node2D" unique_id=929747492]
+[node name="t_tent" type="Node2D" unique_id=929747492 groups=["Area"]]
+y_sort_enabled = true
 
 [node name="Tiles" type="Node2D" parent="." unique_id=747208087]
+z_index = -1
 
 [node name="Ground0" type="TileMapLayer" parent="Tiles" unique_id=533917777]
 use_parent_material = true
@@ -91,21 +93,10 @@ use_parent_material = true
 tile_map_data = PackedByteArray("AAAAAP7/AQAIAAIAAAAAAP//AQAIAAMAAAAAAAAAAQAIAAQAAAABAP7/AQAJAAIAAAABAP//AQAJAAMAAAABAAAAAQAJAAQAAAD9//7/AQAIAAUAAAD9////AQAIAAYAAAD9/wAAAQAIAAcAAAD+//7/AQAJAAUAAAD+////AQAJAAYAAAD+/wAAAQAJAAcAAAA=")
 tile_set = SubResource("TileSet_d2ab0")
 
-[node name="Player" parent="." unique_id=285414616 instance=ExtResource("3_rqn2a")]
+[node name="SpawnPoint" type="Marker2D" parent="." unique_id=1620506775]
+position = Vector2(-8, 34)
 
-[node name="AnimatedSprite2D" parent="Player" index="0" unique_id=681646737]
-use_parent_material = true
-
-[node name="Camera2D" type="Camera2D" parent="Player" unique_id=903057502]
-zoom = Vector2(2, 2)
-process_callback = 0
-position_smoothing_enabled = true
-position_smoothing_speed = 8.0
-drag_left_margin = 0.1
-drag_top_margin = 0.1
-drag_right_margin = 0.1
-drag_bottom_margin = 0.1
-editor_draw_limits = true
-editor_draw_drag_margin = true
-
-[editable path="Player"]
+[node name="Interact" parent="." unique_id=1918062300 instance=ExtResource("2_0jboo")]
+position = Vector2(-8, 51)
+teleport = true
+scene_path = "uid://cqvue1of4rfrt"

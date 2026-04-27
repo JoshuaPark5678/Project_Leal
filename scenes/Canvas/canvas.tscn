@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://cxe3jcncwmkv"]
+
+[ext_resource type="Script" uid="uid://lyugij160v7" path="res://scripts/UI/FPSCounter.gd" id="1_a3bhk"]
+[ext_resource type="FontFile" uid="uid://k60erof85sjg" path="res://assets/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="2_na2cs"]
+[ext_resource type="Script" uid="uid://bkirtn6u0shi" path="res://scripts/UI/area_title.gd" id="3_7u7ov"]
+[ext_resource type="FontFile" uid="uid://cyplw5m1jus1x" path="res://assets/font/lieben_cloude_2402/Lieben_Cloude_Regular.woff2" id="4_mvmt1"]
+[ext_resource type="Script" uid="uid://dfux4yg2x2bs1" path="res://scripts/interact/InteractManager.gd" id="5_na2cs"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_i6yte"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hjmlx"]
+resource_name = "AreaTitleFont"
+font = ExtResource("2_na2cs")
+font_size = 40
+shadow_color = Color(0, 0, 0, 0.14509805)
+
+[sub_resource type="LabelSettings" id="LabelSettings_tde8i"]
+resource_name = "InteractFont"
+font = ExtResource("4_mvmt1")
+font_size = 32
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1639021890]
+
+[node name="FPSCounter" type="Label" parent="." unique_id=1472903342]
+offset_left = 1049.0
+offset_top = 13.0
+offset_right = 1115.0
+offset_bottom = 36.0
+text = "FPS: "
+label_settings = SubResource("LabelSettings_i6yte")
+script = ExtResource("1_a3bhk")
+
+[node name="AreaTitle" type="Label" parent="." unique_id=1565329204]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = -1.0
+offset_top = 50.0
+offset_right = -1.0
+offset_bottom = 103.0
+grow_horizontal = 2
+text = "Campsite"
+label_settings = SubResource("LabelSettings_hjmlx")
+horizontal_alignment = 1
+script = ExtResource("3_7u7ov")
+area_name = "Campsite"
+
+[node name="Interact" type="Label" parent="." unique_id=462130371 groups=["Interact"]]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 448.0
+offset_right = 2.0
+offset_bottom = 501.0
+grow_horizontal = 2
+text = "Press E"
+label_settings = SubResource("LabelSettings_tde8i")
+horizontal_alignment = 1
+script = ExtResource("5_na2cs")
+
+[node name="FadeOverlay" type="ColorRect" parent="." unique_id=1531715755 groups=["FadeOverlay"]]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.07192298, 0.063232064, 0.123739116, 1)

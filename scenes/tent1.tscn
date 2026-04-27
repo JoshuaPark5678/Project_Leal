@@ -2,6 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://bigexrmhk30xd" path="res://assets/sprites/Tents/tent1.png" id="1_h6gn8"]
 [ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_iivji"]
+[ext_resource type="PackedScene" uid="uid://c2eakbmkc7pev" path="res://scenes/interact.tscn" id="3_ojwlr"]
+[ext_resource type="PackedScene" uid="uid://5gk24pi4dvaa" path="res://scenes/Areas/t_tent.tscn" id="4_vsf05"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iivji"]
 size = Vector2(80, 40)
@@ -16,3 +18,5 @@ offset = Vector2(0, -36.625)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=278228993]
 position = Vector2(0, -30)
 shape = SubResource("RectangleShape2D_iivji")
+
+

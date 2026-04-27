@@ -11,13 +11,13 @@ uniform float sway_strength : hint_range(0.0, 8.0) = 2.0;
 
 // Fog
 uniform sampler2D fog_noise : repeat_enable;
-uniform vec4 fog_color : source_color = vec4(0.725, 0.863, 1.0, 1.0);
+uniform vec4 fog_color : source_color = vec4(0.894, 0.945, 1.0, 1.0);
 uniform float fog_density : hint_range(0.0, 1.0) = 0.1;
 uniform float fog_distance : hint_range(0.0, 2000.0) = 400.0;
 uniform float fog_noise_strength : hint_range(0.0, 200.0) = 80.0;
 uniform float fog_noise_scale : hint_range(0.0, 0.02) = 0.005;
 uniform float min_visibility : hint_range(0.0, 1.0) = 0.1;
-uniform float max_visibility : hint_range(0.0, 1.0) = 1.0;
+uniform float max_visibility : hint_range(0.0, 1.0) = 0.8;
 uniform vec2 player_position = vec2(0.0, 0.0);
 
 // Campfire
@@ -47,7 +47,7 @@ void fragment() {
 
         vec4 sprite_color = texture(TEXTURE, displaced_uv);
 
-        vec2 screen_pos = SCREEN_UV * vec2(1152.0, 648.0);
+        vec2 screen_pos = SCREEN_UV / SCREEN_PIXEL_SIZE;
 
         // Noise edge
         vec2 fog_noise_uv = screen_pos * fog_noise_scale + vec2(TIME * 0.02, TIME * 0.013);

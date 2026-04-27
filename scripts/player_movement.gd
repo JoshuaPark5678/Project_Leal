@@ -25,6 +25,11 @@ var roll_direction := Vector2.ZERO
 var blink_timer := 0.0
 var is_blinking := false
 
+# interact manager
+@onready var interact_manager = get_tree().get_first_node_in_group("Interact")
+
+# Game Manager
+@onready var gm = get_tree().get_first_node_in_group("GameManager")
 
 func _ready():
 	randomize()
@@ -34,7 +39,6 @@ func _ready():
 	enable_all_shaders(true)
 
 # SHADER SHINANIGANS
-
 func find_all_fog_materials(node: Node) -> void:
 	for child in node.get_children():
 		if child.get("material") and child.material is ShaderMaterial:
@@ -234,6 +238,12 @@ func _on_animation_finished():
 func is_invincible():
 	return is_rolling
 
+# ==================================================
+# Interact
+# ==================================================
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("interact"):
+		interact_manager.try_interact()
 
 # ==================================================
 # FOG SHADER UPDATE

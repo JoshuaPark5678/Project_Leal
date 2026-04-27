@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://1dqlv1s1j788"]
+
+[ext_resource type="Script" uid="uid://c58ux5puxo8br" path="res://scripts/game_manager.gd" id="1_gme3g"]
+[ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/Player/player.tscn" id="2_4bs2a"]
+[ext_resource type="PackedScene" uid="uid://cxe3jcncwmkv" path="res://scenes/Canvas/canvas.tscn" id="3_t7vdo"]
+[ext_resource type="PackedScene" uid="uid://cqvue1of4rfrt" path="res://scenes/Areas/t_campsite.tscn" id="4_uov3l"]
+
+[node name="MainScene" type="Node" unique_id=697938033]
+
+[node name="GameManager" type="Node" parent="." unique_id=1614113453 node_paths=PackedStringArray("area_container", "player", "camera") groups=["GameManager"]]
+script = ExtResource("1_gme3g")
+area_container = NodePath("../Game/T_Campsite")
+player = NodePath("../Game/Player")
+camera = NodePath("../Game/Player/Camera2D")
+
+[node name="CanvasLayer" parent="." unique_id=1639021890 instance=ExtResource("3_t7vdo")]
+
+[node name="Game" type="Node2D" parent="." unique_id=1970847650]
+y_sort_enabled = true
+
+[node name="Player" parent="Game" unique_id=285414616 instance=ExtResource("2_4bs2a")]
+y_sort_enabled = true
+position = Vector2(-131, -36)
+
+[node name="Camera2D" type="Camera2D" parent="Game/Player" unique_id=1688567580]
+zoom = Vector2(2, 2)
+process_callback = 0
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+drag_left_margin = 0.1
+drag_top_margin = 0.1
+drag_right_margin = 0.1
+drag_bottom_margin = 0.1
+editor_draw_limits = true
+editor_draw_drag_margin = true
+
+[node name="T_Campsite" parent="Game" unique_id=981647814 instance=ExtResource("4_uov3l")]

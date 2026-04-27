@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://brth87uhkqvdu"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_sworg"]
+[ext_resource type="Script" uid="uid://dikbm2tecf4cj" path="res://scripts/grass_sway.gd" id="2_cmtyu"]
+[ext_resource type="Texture2D" uid="uid://bf2fjqmgthe6f" path="res://assets/sprites/Grass/grass_B_1.png" id="3_rwcyd"]
+[ext_resource type="Texture2D" uid="uid://cadfdt2rsq61k" path="res://assets/sprites/Grass/grass_B_2.png" id="4_j5pde"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ivgi1"]
+radius = 5.0
+height = 18.0
+
+[node name="grass_B" type="Area2D" unique_id=686814752]
+material = ExtResource("1_sworg")
+script = ExtResource("2_cmtyu")
+
+[node name="blade1" type="Sprite2D" parent="." unique_id=1472404778]
+use_parent_material = true
+texture = ExtResource("3_rwcyd")
+offset = Vector2(-1, -16)
+
+[node name="blade2" type="Sprite2D" parent="." unique_id=1379028616]
+use_parent_material = true
+texture = ExtResource("4_j5pde")
+offset = Vector2(0, -16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1560185338]
+visible = false
+position = Vector2(0, -9)
+shape = SubResource("CapsuleShape2D_ivgi1")

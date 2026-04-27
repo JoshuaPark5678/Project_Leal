@@ -1,0 +1,5915 @@
+fileFormatVersion: 2
+guid: 508759cc9dcd0d54fa4ece847d83a1f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3694487331466954623
+    second: Darinia_0
+  - first:
+      213: 5706214876912630791
+    second: Darinia_1
+  - first:
+      213: 2285751780789234693
+    second: Darinia_2
+  - first:
+      213: -1173389331372736247
+    second: Darinia_3
+  - first:
+      213: 9186637531168786478
+    second: Darinia_4
+  - first:
+      213: 8071493900221889558
+    second: Darinia_5
+  - first:
+      213: -1310381172394540824
+    second: Darinia_6
+  - first:
+      213: 1318259947494433478
+    second: Darinia_7
+  - first:
+      213: -4911201064917402861
+    second: Darinia_8
+  - first:
+      213: -1441039038907941046
+    second: Darinia_9
+  - first:
+      213: 671541018331107021
+    second: Darinia_10
+  - first:
+      213: -7067388211233106536
+    second: Darinia_11
+  - first:
+      213: -2104165186319847914
+    second: Darinia_12
+  - first:
+      213: -382177058370584652
+    second: Darinia_13
+  - first:
+      213: -4668909139630862600
+    second: Darinia_14
+  - first:
+      213: -8772245512021940526
+    second: Darinia_15
+  - first:
+      213: 8737806935680005237
+    second: Darinia_16
+  - first:
+      213: -6656382560712017652
+    second: Darinia_17
+  - first:
+      213: -1336996096274479452
+    second: Darinia_18
+  - first:
+      213: -240170280847507522
+    second: Darinia_19
+  - first:
+      213: 4510481657197915269
+    second: Darinia_20
+  - first:
+      213: -9013652417926213353
+    second: Darinia_21
+  - first:
+      213: 617811008195788988
+    second: Darinia_22
+  - first:
+      213: -3425178036631751134
+    second: Darinia_23
+  - first:
+      213: 4959060897663932571
+    second: Darinia_24
+  - first:
+      213: -8020874681126683693
+    second: Darinia_25
+  - first:
+      213: -1224279526735736772
+    second: Darinia_26
+  - first:
+      213: -7806473202405994285
+    second: Darinia_27
+  - first:
+      213: 483010892664955022
+    second: Darinia_28
+  - first:
+      213: 1891093110072535176
+    second: Darinia_29
+  - first:
+      213: -2164194347580764951
+    second: Darinia_30
+  - first:
+      213: -2769926298589773358
+    second: Darinia_31
+  - first:
+      213: -1000946373782535592
+    second: Darinia_32
+  - first:
+      213: 8031324743165231431
+    second: Darinia_33
+  - first:
+      213: -3296717901013071154
+    second: Darinia_34
+  - first:
+      213: -5584486455337605317
+    second: Darinia_35
+  - first:
+      213: 4934766961801640632
+    second: Darinia_36
+  - first:
+      213: 856064144812883842
+    second: Darinia_37
+  - first:
+      213: 8111291995529049140
+    second: Darinia_38
+  - first:
+      213: -3998503658521943575
+    second: Darinia_39
+  - first:
+      213: 392538552917604627
+    second: Darinia_40
+  - first:
+      213: 2101200835126131677
+    second: Darinia_41
+  - first:
+      213: -4816649426398066551
+    second: Darinia_42
+  - first:
+      213: 8661642857884952994
+    second: Darinia_43
+  - first:
+      213: -5771433503885021061
+    second: Darinia_44
+  - first:
+      213: 3589283450694416870
+    second: Darinia_45
+  - first:
+      213: 7774821617974154473
+    second: Darinia_46
+  - first:
+      213: 7807564003237439956
+    second: Darinia_47
+  - first:
+      213: 544007127114046240
+    second: Darinia_48
+  - first:
+      213: 2412745153246903567
+    second: Darinia_49
+  - first:
+      213: -386914396519173392
+    second: Darinia_50
+  - first:
+      213: -7786074440377921475
+    second: Darinia_51
+  - first:
+      213: 2995169454101544842
+    second: Darinia_52
+  - first:
+      213: 5813958215125314850
+    second: Darinia_53
+  - first:
+      213: -4659326523072327291
+    second: Darinia_54
+  - first:
+      213: 5777461864765245377
+    second: Darinia_55
+  - first:
+      213: -7735386366803146838
+    second: Darinia_56
+  - first:
+      213: 6124663493360256015
+    second: Darinia_57
+  - first:
+      213: -2180821509019142882
+    second: Darinia_58
+  - first:
+      213: 5303649776020622218
+    second: Darinia_59
+  - first:
+      213: -8032022919735224792
+    second: Darinia_60
+  - first:
+      213: 3781279981201907132
+    second: Darinia_61
+  - first:
+      213: 1334614722551350976
+    second: Darinia_62
+  - first:
+      213: -6037393217540068985
+    second: Darinia_63
+  - first:
+      213: -663193853886544332
+    second: Darinia_64
+  - first:
+      213: -5978465309299723988
+    second: Darinia_65
+  - first:
+      213: 2623787031656461329
+    second: Darinia_66
+  - first:
+      213: -8513684708731884059
+    second: Darinia_67
+  - first:
+      213: 112874208588761488
+    second: Darinia_68
+  - first:
+      213: 4351864752273491621
+    second: Darinia_69
+  - first:
+      213: 7443326218189064133
+    second: Darinia_70
+  - first:
+      213: 5983879442925035264
+    second: Darinia_71
+  - first:
+      213: 97475049957561483
+    second: Darinia_72
+  - first:
+      213: 8309801925712256064
+    second: Darinia_73
+  - first:
+      213: 5145056394646458047
+    second: Darinia_74
+  - first:
+      213: -8821396495120428262
+    second: Darinia_75
+  - first:
+      213: 6284106033166107585
+    second: Darinia_76
+  - first:
+      213: -4385657884727038026
+    second: Darinia_77
+  - first:
+      213: 5503114995968044690
+    second: Darinia_78
+  - first:
+      213: -4647960973794567554
+    second: Darinia_79
+  - first:
+      213: -5736130778920096389
+    second: Darinia_80
+  - first:
+      213: -1146405346439385573
+    second: Darinia_81
+  - first:
+      213: -322502650330381410
+    second: Darinia_82
+  - first:
+      213: -8562141407938114438
+    second: Darinia_83
+  - first:
+      213: -6334553866037772966
+    second: Darinia_84
+  - first:
+      213: -5015569919975396170
+    second: Darinia_85
+  - first:
+      213: -4987027838629792008
+    second: Darinia_86
+  - first:
+      213: -6686251391571381077
+    second: Darinia_87
+  - first:
+      213: 2442184544646003387
+    second: Darinia_88
+  - first:
+      213: 2356699916909379402
+    second: Darinia_89
+  - first:
+      213: -5308897313722526114
+    second: Darinia_90
+  - first:
+      213: -449023100097223654
+    second: Darinia_91
+  - first:
+      213: -3678762983633122789
+    second: Darinia_92
+  - first:
+      213: -1504371106240159041
+    second: Darinia_93
+  - first:
+      213: 7883426331885903078
+    second: Darinia_94
+  - first:
+      213: -157712698035408283
+    second: Darinia_95
+  - first:
+      213: 4937685718342930728
+    second: Darinia_96
+  - first:
+      213: 3940505630839615229
+    second: Darinia_97
+  - first:
+      213: 8351866329070327206
+    second: Darinia_98
+  - first:
+      213: -1948500590002206241
+    second: Darinia_99
+  - first:
+      213: -2732102339074347309
+    second: Darinia_100
+  - first:
+      213: 864319959937883781
+    second: Darinia_101
+  - first:
+      213: -2547536816262704803
+    second: Darinia_102
+  - first:
+      213: 1624285489050981104
+    second: Darinia_103
+  - first:
+      213: 5368121629168196166
+    second: Darinia_104
+  - first:
+      213: -4324433039732754185
+    second: Darinia_105
+  - first:
+      213: -3911168827262648483
+    second: Darinia_106
+  - first:
+      213: 7026433030351773752
+    second: Darinia_107
+  - first:
+      213: 2993573667716567174
+    second: Darinia_108
+  - first:
+      213: 657787839142600835
+    second: Darinia_109
+  - first:
+      213: -5746434697362312404
+    second: Darinia_110
+  - first:
+      213: 230161850145496150
+    second: Darinia_111
+  - first:
+      213: -8583810149847534132
+    second: Darinia_112
+  - first:
+      213: 6880241963613447329
+    second: Darinia_113
+  - first:
+      213: 7186706230453472829
+    second: Darinia_114
+  - first:
+      213: -3906552466709880501
+    second: Darinia_115
+  - first:
+      213: -5937914767689748860
+    second: Darinia_116
+  - first:
+      213: 9028958489505354527
+    second: Darinia_117
+  - first:
+      213: -5474841298414288239
+    second: Darinia_118
+  - first:
+      213: -7942645417343919790
+    second: Darinia_119
+  - first:
+      213: 4609037598161119861
+    second: Darinia_120
+  - first:
+      213: -7544996540122102104
+    second: Darinia_121
+  - first:
+      213: -5723703165834829528
+    second: Darinia_122
+  - first:
+      213: -8780710907173381959
+    second: Darinia_123
+  - first:
+      213: 2806606519336399810
+    second: Darinia_124
+  - first:
+      213: 936462063760658578
+    second: Darinia_125
+  - first:
+      213: 2165741845672050823
+    second: Darinia_126
+  - first:
+      213: -2410362348891141648
+    second: Darinia_127
+  - first:
+      213: 703263821860233057
+    second: Darinia_128
+  - first:
+      213: -4527199503877712604
+    second: Darinia_129
+  - first:
+      213: 584938333932275459
+    second: Darinia_130
+  - first:
+      213: -3738309924321934538
+    second: Darinia_131
+  - first:
+      213: -7508655489048711514
+    second: Darinia_132
+  - first:
+      213: 3582101338302783635
+    second: Darinia_133
+  - first:
+      213: -6857397186971585136
+    second: Darinia_134
+  - first:
+      213: 8975408966640770348
+    second: Darinia_135
+  - first:
+      213: -9151203631298933951
+    second: Darinia_136
+  - first:
+      213: 1490443121056136096
+    second: Darinia_137
+  - first:
+      213: 5131430649762778505
+    second: Darinia_138
+  - first:
+      213: 7207499570614628904
+    second: Darinia_139
+  - first:
+      213: 4118941606342214102
+    second: Darinia_140
+  - first:
+      213: -4355031255209954642
+    second: Darinia_141
+  - first:
+      213: -5812628329412974133
+    second: Darinia_142
+  - first:
+      213: 2135273210496905774
+    second: Darinia_143
+  - first:
+      213: 4233964034091999547
+    second: Darinia_144
+  - first:
+      213: -8723371868081957695
+    second: Darinia_145
+  - first:
+      213: 5922397125252334995
+    second: Darinia_146
+  - first:
+      213: 7386703210483981034
+    second: Darinia_147
+  - first:
+      213: -2863983166669716580
+    second: Darinia_148
+  - first:
+      213: 3569824726122220248
+    second: Darinia_149
+  - first:
+      213: 2129566202641527273
+    second: Darinia_150
+  - first:
+      213: -8956246598411299595
+    second: Darinia_151
+  - first:
+      213: -7959754246605242822
+    second: Darinia_152
+  - first:
+      213: 8780239149506637865
+    second: Darinia_153
+  - first:
+      213: 5594471404910529910
+    second: Darinia_154
+  - first:
+      213: -7336663075772825804
+    second: Darinia_155
+  - first:
+      213: 5942229565374822277
+    second: Darinia_156
+  - first:
+      213: 402605984171718725
+    second: Darinia_157
+  - first:
+      213: -274683935956760003
+    second: Darinia_158
+  - first:
+      213: -7801675125304217146
+    second: Darinia_159
+  - first:
+      213: -4610674302183387041
+    second: Darinia_160
+  - first:
+      213: -2339918204991554138
+    second: Darinia_161
+  - first:
+      213: -7848670525782288167
+    second: Darinia_162
+  - first:
+      213: 8667961543830143056
+    second: Darinia_163
+  - first:
+      213: 11937614355174839
+    second: Darinia_164
+  - first:
+      213: 701776264661108534
+    second: Darinia_165
+  - first:
+      213: 5591499757120711098
+    second: Darinia_166
+  - first:
+      213: 3255207122384500657
+    second: Darinia_167
+  - first:
+      213: 52066905722373833
+    second: Darinia_168
+  - first:
+      213: -7274395490670671199
+    second: Darinia_169
+  - first:
+      213: 1474189588552952844
+    second: Darinia_170
+  - first:
+      213: 7255920330934272109
+    second: Darinia_171
+  - first:
+      213: -5400238014373607042
+    second: Darinia_172
+  - first:
+      213: 7337142785489334530
+    second: Darinia_173
+  - first:
+      213: -8332045892507803594
+    second: Darinia_174
+  - first:
+      213: -5150104200551063805
+    second: Darinia_175
+  - first:
+      213: -7557803698910786732
+    second: Darinia_176
+  - first:
+      213: 7707791948569865035
+    second: Darinia_177
+  - first:
+      213: -1378513595993890950
+    second: Darinia_178
+  - first:
+      213: 8732158450020473739
+    second: Darinia_179
+  - first:
+      213: 2219382666174374141
+    second: Darinia_180
+  - first:
+      213: 2502117074016204593
+    second: Darinia_181
+  - first:
+      213: -5616148050907961885
+    second: Darinia_182
+  - first:
+      213: -1256110155714603143
+    second: Darinia_183
+  - first:
+      213: 4837327864733123197
+    second: Darinia_184
+  - first:
+      213: 747108489199567637
+    second: Darinia_185
+  - first:
+      213: 7887332504838221351
+    second: Darinia_186
+  - first:
+      213: 3919264138847038711
+    second: Darinia_187
+  - first:
+      213: 1616373362935481852
+    second: Darinia_188
+  - first:
+      213: -5704141520307480062
+    second: Darinia_189
+  - first:
+      213: 8295658963522165326
+    second: Darinia_190
+  - first:
+      213: 5989885835482719361
+    second: Darinia_191
+  - first:
+      213: 7253602485028570626
+    second: Darinia_192
+  - first:
+      213: 8718329874986887679
+    second: Darinia_193
+  - first:
+      213: 102823988353577772
+    second: Darinia_194
+  - first:
+      213: 6268544967935473779
+    second: Darinia_195
+  - first:
+      213: -3086749213831060989
+    second: Darinia_196
+  - first:
+      213: 1168595947931886042
+    second: Darinia_197
+  - first:
+      213: -1860948987353044722
+    second: Darinia_198
+  - first:
+      213: -3969226189329329597
+    second: Darinia_199
+  - first:
+      213: -4724757701485161314
+    second: Darinia_200
+  - first:
+      213: -6248272015295379283
+    second: Darinia_201
+  - first:
+      213: 3011186998187377362
+    second: Darinia_202
+  - first:
+      213: -1416287283410905580
+    second: Darinia_203
+  - first:
+      213: -419654420822240977
+    second: Darinia_204
+  - first:
+      213: -9195195668603863904
+    second: Darinia_205
+  - first:
+      213: -2615362613953277871
+    second: Darinia_206
+  - first:
+      213: 3478863375566112606
+    second: Darinia_207
+  - first:
+      213: -8750479588246688595
+    second: Darinia_208
+  - first:
+      213: -2159602905182600401
+    second: Darinia_209
+  - first:
+      213: 1329426090553914937
+    second: Darinia_210
+  - first:
+      213: -8521750540780520110
+    second: Darinia_211
+  - first:
+      213: -9115840366886900529
+    second: Darinia_212
+  - first:
+      213: 1444166115265653792
+    second: Darinia_213
+  - first:
+      213: -4953436513916359097
+    second: Darinia_214
+  - first:
+      213: 3972366045041880189
+    second: Darinia_215
+  - first:
+      213: 7930620853577109147
+    second: Darinia_216
+  - first:
+      213: -2078294969031214577
+    second: Darinia_217
+  - first:
+      213: -290243818095228121
+    second: Darinia_218
+  - first:
+      213: 1239313216695549354
+    second: Darinia_219
+  - first:
+      213: 1567108364424738363
+    second: Darinia_220
+  - first:
+      213: 363362069002199228
+    second: Darinia_221
+  - first:
+      213: -4660061262122749968
+    second: Darinia_222
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Darinia_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 202
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1883bb4a85b8abcc0800000000000000
+      internalID: -3694487331466954623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 222
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3d6e923c803f40800000000000000
+      internalID: 5706214876912630791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 220
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ca8aa522f98bf10800000000000000
+      internalID: 2285751780789234693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 228
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9018b48be9847bfe0800000000000000
+      internalID: -1173389331372736247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 222
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e284695692e7d7f70800000000000000
+      internalID: 9186637531168786478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 223
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c357900f4b30070800000000000000
+      internalID: 8071493900221889558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 221
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e04013344790dde0800000000000000
+      internalID: -1310381172394540824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 221
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e70410766b4210800000000000000
+      internalID: 1318259947494433478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 231
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bf311f6a8e7dbb0800000000000000
+      internalID: -4911201064917402861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 224
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffb6a01a6600ce0800000000000000
+      internalID: -1441039038907941046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 222
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcecab98ffac15900800000000000000
+      internalID: 671541018331107021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 222
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895daa3ddd79bed90800000000000000
+      internalID: -7067388211233106536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 206
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e69a059e08cc2e0800000000000000
+      internalID: -2104165186319847914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 205
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf74828dfb32baf0800000000000000
+      internalID: -382177058370584652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe4abbdfd3b43fb0800000000000000
+      internalID: -4668909139630862600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 202
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6ea652f29b24680800000000000000
+      internalID: -8772245512021940526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 201
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574b625fc1de24970800000000000000
+      internalID: 8737806935680005237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 202
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09b7abf357cf93a0800000000000000
+      internalID: -6656382560712017652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 202
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6c9775229027de0800000000000000
+      internalID: -1336996096274479452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 202
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf7a7ce66ebaacf0800000000000000
+      internalID: -240170280847507522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c623f6b23789e30800000000000000
+      internalID: 4510481657197915269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 202
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711daacd1e219e280800000000000000
+      internalID: -9013652417926213353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 202
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb006d1b6d7e29800800000000000000
+      internalID: 617811008195788988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 201
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226381a19b25770d0800000000000000
+      internalID: -3425178036631751134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 204
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98d9c8bc9f12d440800000000000000
+      internalID: 4959060897663932571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 201
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbf48359f020b090800000000000000
+      internalID: -8020874681126683693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c301227c14c720fe0800000000000000
+      internalID: -1224279526735736772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 182
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d01cfd9bf5d9a390800000000000000
+      internalID: -7806473202405994285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 181
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8060f709dff3b600800000000000000
+      internalID: 483010892664955022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 182
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888ef070a238e3a10800000000000000
+      internalID: 1891093110072535176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_30
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 182
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec4a8f05bc37f1e0800000000000000
+      internalID: -2164194347580764951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 182
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d14b8605be3f89d0800000000000000
+      internalID: -2769926298589773358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_32
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 180
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8520a77839ceb12f0800000000000000
+      internalID: -1000946373782535592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 182
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7414b285d4ff47f60800000000000000
+      internalID: 8031324743165231431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_34
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 182
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecac1792984bf32d0800000000000000
+      internalID: -3296717901013071154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_35
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 182
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b372f90282bef72b0800000000000000
+      internalID: -5584486455337605317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 182
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba358ff760db7440800000000000000
+      internalID: 4934766961801640632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 180
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f3588ddc951eb00800000000000000
+      internalID: 856064144812883842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 180
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4347afe2819119070800000000000000
+      internalID: 8111291995529049140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_39
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 182
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e123b88b167288c0800000000000000
+      internalID: -3998503658521943575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 182
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319bc4febb3927500800000000000000
+      internalID: 392538552917604627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 182
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb7273e607f82d10800000000000000
+      internalID: 2101200835126131677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 182
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98844fbcdd2d72db0800000000000000
+      internalID: -4816649426398066551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a92883b946543870800000000000000
+      internalID: 8661642857884952994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_44
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70352c7ecfb7efa0800000000000000
+      internalID: -5771433503885021061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_45
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 162
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e934d41842bfc130800000000000000
+      internalID: 3589283450694416870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4906b9117b5eb60800000000000000
+      internalID: 7774821617974154473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9281e381a0a5c60800000000000000
+      internalID: 7807564003237439956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 162
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bd9ee8993bc8700800000000000000
+      internalID: 544007127114046240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 162
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0db3d00feacb7120800000000000000
+      internalID: 2412745153246903567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 162
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27df4086761aaf0800000000000000
+      internalID: -386914396519173392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_51
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 162
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3096828c8e42f390800000000000000
+      internalID: -7786074440377921475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 162
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fb2d9dfbaf09920800000000000000
+      internalID: 2995169454101544842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_53
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 162
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d228761345fa050800000000000000
+      internalID: 5813958215125314850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_54
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 161
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581d7b3a63fb65fb0800000000000000
+      internalID: -4659326523072327291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_55
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 162
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c2b8a4faad2050800000000000000
+      internalID: 5777461864765245377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_56
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 161
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa78c4e451366a490800000000000000
+      internalID: -7735386366803146838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 175
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f048a825ffc2ff450800000000000000
+      internalID: 6124663493360256015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f16c546a2cb1e0800000000000000
+      internalID: -2180821509019142882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_59
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 142
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b0ac01f595a9940800000000000000
+      internalID: 5303649776020622218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_60
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 141
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826d261c5b5888090800000000000000
+      internalID: -8032022919735224792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 142
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdd5dbdb1ec97430800000000000000
+      internalID: 3781279981201907132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_62
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 142
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60ea1e401858210800000000000000
+      internalID: 1334614722551350976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_63
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 142
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789eb2b2bded63ca0800000000000000
+      internalID: -6037393217540068985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_64
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 140
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436ced124bcdbc6f0800000000000000
+      internalID: -663193853886544332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 142
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21b139f979380da0800000000000000
+      internalID: -5978465309299723988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_66
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 142
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114f8246760996420800000000000000
+      internalID: 2623787031656461329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_67
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 142
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed6c566dd059d980800000000000000
+      internalID: -8513684708731884059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 142
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0998c33ae72019100800000000000000
+      internalID: 112874208588761488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 140
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a60ecd5fede46c30800000000000000
+      internalID: 4351864752273491621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_70
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 140
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7c28e42c10c4760800000000000000
+      internalID: 7443326218189064133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_71
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 142
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f1f4e36a20b0350800000000000000
+      internalID: 5983879442925035264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_72
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 142
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b841f2f9a0d4a5100800000000000000
+      internalID: 97475049957561483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_73
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 142
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c9feff2d8525370800000000000000
+      internalID: 8309801925712256064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_74
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 142
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe01400889e66740800000000000000
+      internalID: 5145056394646458047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13987d10aa149580800000000000000
+      internalID: -8821396495120428262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_76
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 101
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c341cd7421a53750800000000000000
+      internalID: 6284106033166107585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_77
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 122
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf247ad3630323c0800000000000000
+      internalID: -4385657884727038026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_78
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 122
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eeccc9eedfe5c40800000000000000
+      internalID: 5503114995968044690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_79
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 122
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a981bce102f7fb0800000000000000
+      internalID: -4647960973794567554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_80
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 122
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d6849a27b2560b0800000000000000
+      internalID: -5736130778920096389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_81
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 122
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e2fdc49662710f0800000000000000
+      internalID: -1146405346439385573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 122
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e938fe75c8d368bf0800000000000000
+      internalID: -322502650330381410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_83
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 122
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c8f2fe0c92d2980800000000000000
+      internalID: -8562141407938114438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_84
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 122
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dbd3c12d42718a0800000000000000
+      internalID: -6334553866037772966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_85
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 122
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc6bbd3bbd156ab0800000000000000
+      internalID: -5015569919975396170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_86
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 121
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6bc796a948acab0800000000000000
+      internalID: -4987027838629792008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_87
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 119
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba43d6ed8c9a533a0800000000000000
+      internalID: -6686251391571381077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_88
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 121
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaf29377e164e120800000000000000
+      internalID: 2442184544646003387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_89
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 126
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f739d861ea4b020800000000000000
+      internalID: 2356699916909379402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_90
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 101
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e561b8a55020356b0800000000000000
+      internalID: -5308897313722526114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_91
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14a2c69edfb4c9f0800000000000000
+      internalID: -449023100097223654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_92
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 102
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a01bbae8862fcc0800000000000000
+      internalID: -3678762983633122789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_93
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 102
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2a13a03766f1be0800000000000000
+      internalID: -1504371106240159041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_94
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 102
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec150d0b7e876d60800000000000000
+      internalID: 7883426331885903078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_95
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 115
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562f7010321bfcdf0800000000000000
+      internalID: -157712698035408283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 101
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8219956fffe268440800000000000000
+      internalID: 4937685718342930728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_97
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 102
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe2f995efc7fa630800000000000000
+      internalID: 3940505630839615229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_98
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 115
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a558cb1d2ac7e370800000000000000
+      internalID: 8351866329070327206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_99
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 92
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd98748790985f4e0800000000000000
+      internalID: -1948500590002206241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_100
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 109
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dea57dd56f951ad0800000000000000
+      internalID: -2732102339074347309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_101
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 102
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e90689c6eaefb00800000000000000
+      internalID: 864319959937883781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_102
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 104
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d519e6653c455acd0800000000000000
+      internalID: -2547536816262704803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_103
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f294b4eb0f9a8610800000000000000
+      internalID: 1624285489050981104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_104
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 82
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a59a12e266f7a40800000000000000
+      internalID: 5368121629168196166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f834cbef078cf3c0800000000000000
+      internalID: -4324433039732754185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_106
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 84
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fbd628cacb8b9c0800000000000000
+      internalID: -3911168827262648483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_107
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 92
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830603c0d97e28160800000000000000
+      internalID: 7026433030351773752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_108
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 92
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6809531e36f4b8920800000000000000
+      internalID: 2993573667716567174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_109
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 82
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380aaa9fd8ee02900800000000000000
+      internalID: 657787839142600835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_110
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 95
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c237db2b6109040b0800000000000000
+      internalID: -5746434697362312404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_111
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 82
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cd4c6bbf2b13300800000000000000
+      internalID: 230161850145496150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_112
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 82
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f1fec52e20e880800000000000000
+      internalID: -8583810149847534132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_113
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 82
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a46ae1ec978b7f50800000000000000
+      internalID: 6880241963613447329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_114
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 95
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e04436d3f4cb360800000000000000
+      internalID: 7186706230453472829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_115
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 89
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41e455ba3329c9c0800000000000000
+      internalID: -3906552466709880501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_116
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 82
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e6e4daaf9489da0800000000000000
+      internalID: -5937914767689748860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_117
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 82
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13d6b2a8ed4d4d70800000000000000
+      internalID: 9028958489505354527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_118
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 82
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192c06698d47504b0800000000000000
+      internalID: -5474841298414288239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_119
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 85
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259d45a231e06c190800000000000000
+      internalID: -7942645417343919790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a20da964796ff30800000000000000
+      internalID: 4609037598161119861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a688723f99ca4790800000000000000
+      internalID: -7544996540122102104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_122
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821e2a0db425190b0800000000000000
+      internalID: -5723703165834829528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_123
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8588eb3f5a42680800000000000000
+      internalID: -8780710907173381959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_124
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3775162c113f620800000000000000
+      internalID: 2806606519336399810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2905510194bfefc00800000000000000
+      internalID: 936462063760658578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_126
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7804b7aebb24e0e10800000000000000
+      internalID: 2165741845672050823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_127
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 75
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f90e5ed63cac8ed0800000000000000
+      internalID: -2410362348891141648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_128
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 62
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fdc5d48be72c900800000000000000
+      internalID: 703263821860233057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_129
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4255b0099082c21c0800000000000000
+      internalID: -4527199503877712604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_130
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307ca89c05e1e1800800000000000000
+      internalID: 584938333932275459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_131
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 62
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63349742eeade1cc0800000000000000
+      internalID: -3738309924321934538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 59
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aee6728d95ebc790800000000000000
+      internalID: -7508655489048711514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_133
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 62
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3902dfa303e26b130800000000000000
+      internalID: 3582101338302783635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_134
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095bbca2791a5d0a0800000000000000
+      internalID: -6857397186971585136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_135
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 62
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d9a72c6ee0f8c70800000000000000
+      internalID: 8975408966640770348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_136
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b892158c4600180800000000000000
+      internalID: -9151203631298933951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_137
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 62
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abb9743f1e1fa410800000000000000
+      internalID: 1490443121056136096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_138
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d89ac0df0863740800000000000000
+      internalID: 5131430649762778505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_139
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 62
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822f3492cae260460800000000000000
+      internalID: 7207499570614628904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_140
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 62
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ca90619b692930800000000000000
+      internalID: 4118941606342214102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_141
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2bc77b522df83c0800000000000000
+      internalID: -4355031255209954642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_142
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 62
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9a7fdb455655fa0800000000000000
+      internalID: -5812628329412974133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_143
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22731afba302ad10800000000000000
+      internalID: 2135273210496905774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_144
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3165d34bdf02ca30800000000000000
+      internalID: 4233964034091999547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_145
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 62
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4d65f118b50f680800000000000000
+      internalID: -8723371868081957695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 62
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395c575aec4903250800000000000000
+      internalID: 5922397125252334995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea922afe67d28660800000000000000
+      internalID: 7386703210483981034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_148
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 42
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9304f3eb761148d0800000000000000
+      internalID: -2863983166669716580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_149
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 55
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dacbe6bca09a8130800000000000000
+      internalID: 3569824726122220248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_150
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1302aad2dbd8d10800000000000000
+      internalID: 2129566202641527273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4d4e4cb2505b380800000000000000
+      internalID: -8956246598411299595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_152
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3effaf6fa5498190800000000000000
+      internalID: -7959754246605242822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_153
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920325d9cfca9d970800000000000000
+      internalID: 8780239149506637865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_154
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dc5cb1a1e83ad40800000000000000
+      internalID: 5594471404910529910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_155
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 55
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ff5dbcdcfee2a90800000000000000
+      internalID: -7336663075772825804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_156
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5877df17e4a077250800000000000000
+      internalID: 5942229565374822277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_157
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 55
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548700f6208569500800000000000000
+      internalID: 402605984171718725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_158
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 42
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a8ac36a60203cf0800000000000000
+      internalID: -274683935956760003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_159
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1bd3ffec1eab390800000000000000
+      internalID: -7801675125304217146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_160
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50565b86289300c0800000000000000
+      internalID: -4610674302183387041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_161
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad320c3ac0f68fd0800000000000000
+      internalID: -2339918204991554138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_162
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d81ba7adbbe31390800000000000000
+      internalID: -7848670525782288167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_163
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0500eba6919ca4870800000000000000
+      internalID: 8667961543830143056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_164
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 42
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b51b1f62396a2000800000000000000
+      internalID: 11937614355174839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_165
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 55
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6370de66bc53db900800000000000000
+      internalID: 701776264661108534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_166
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 42
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9ecd0776ff89d40800000000000000
+      internalID: 5591499757120711098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_167
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7bc0881a1dc2d20800000000000000
+      internalID: 3255207122384500657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_168
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6c22c239af8b000800000000000000
+      internalID: 52066905722373833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_169
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 42
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa0fd6b7d72c0b90800000000000000
+      internalID: -7274395490670671199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_170
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 42
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c2745ce9f557410800000000000000
+      internalID: 1474189588552952844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d604fd3f81532b460800000000000000
+      internalID: 7255920330934272109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7943ba33208e05b0800000000000000
+      internalID: -5400238014373607042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_173
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20179635d74c2d560800000000000000
+      internalID: 7337142785489334530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_174
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630e1d4e760ae5c80800000000000000
+      internalID: -8332045892507803594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_175
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f18e914872788b0800000000000000
+      internalID: -5150104200551063805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_176
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 22
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0a4c24994d1790800000000000000
+      internalID: -7557803698910786732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_177
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b6f1980f397fa60800000000000000
+      internalID: 7707791948569865035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_178
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 22
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fdcb820398edce0800000000000000
+      internalID: -1378513595993890950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_179
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b55e768dbde2970800000000000000
+      internalID: 8732158450020473739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_180
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0abfda6c4dcce10800000000000000
+      internalID: 2219382666174374141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_181
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 22
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137fc27d83e49b220800000000000000
+      internalID: 2502117074016204593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_182
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5e0a37a1f6f02b0800000000000000
+      internalID: -5616148050907961885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_183
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 22
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977ded1f776619ee0800000000000000
+      internalID: -1256110155714603143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_184
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72448f4014a12340800000000000000
+      internalID: 4837327864733123197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_185
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5134b6b66334e5a00800000000000000
+      internalID: 747108489199567637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_186
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e2640df1f657d60800000000000000
+      internalID: 7887332504838221351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_187
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fca7e818f5046630800000000000000
+      internalID: 3919264138847038711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_188
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf54c2a72038e6610800000000000000
+      internalID: 1616373362935481852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_189
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 22
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a14855281d6d0b0800000000000000
+      internalID: -5704141520307480062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_190
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a168200e9102370800000000000000
+      internalID: 8295658963522165326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_191
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 22
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184671d7e69502350800000000000000
+      internalID: 5989885835482719361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_192
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 22
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206c4066709f9a460800000000000000
+      internalID: 7253602485028570626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_193
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e44164dabdf870800000000000000
+      internalID: 8718329874986887679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_194
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 22
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2334346fdd4d6100800000000000000
+      internalID: 102823988353577772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_195
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3783b58af685ef650800000000000000
+      internalID: 6268544967935473779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_196
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30222eeb1f9a925d0800000000000000
+      internalID: -3086749213831060989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_197
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 22
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1e07ab2dfa73010800000000000000
+      internalID: 1168595947931886042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_198
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 22
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e2b771c49c26e0800000000000000
+      internalID: -1860948987353044722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34219d78fc97ae8c0800000000000000
+      internalID: -3969226189329329597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_200
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e949f2147e94e6eb0800000000000000
+      internalID: -4724757701485161314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_201
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 15
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da80e44f4bda949a0800000000000000
+      internalID: -6248272015295379283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_202
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2cb33fe92e9c920800000000000000
+      internalID: 3011186998187377362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_203
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416d3643836585ce0800000000000000
+      internalID: -1416287283410905580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_204
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21d77617861d2af0800000000000000
+      internalID: -419654420822240977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_205
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acf7a4f14a146080800000000000000
+      internalID: -9195195668603863904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_206
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1505a743f8d54bbd0800000000000000
+      internalID: -2615362613953277871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_207
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 15
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e570cbaeec7674030800000000000000
+      internalID: 3478863375566112606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_208
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacef303d2d009680800000000000000
+      internalID: -8750479588246688595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_209
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2380bc899c8702e0800000000000000
+      internalID: -2159602905182600401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_210
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9363a9a5cf1137210800000000000000
+      internalID: 1329426090553914937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_211
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25db8488809acb980800000000000000
+      internalID: -8521750540780520110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_212
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc2a8eeb770e7180800000000000000
+      internalID: -9115840366886900529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_213
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ca0192e65ba0410800000000000000
+      internalID: 1444166115265653792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_214
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee09a2cbbd14bb0800000000000000
+      internalID: -4953436513916359097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_215
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c6b881fdda02730800000000000000
+      internalID: 3972366045041880189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_216
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ec4c9e5a93f0e60800000000000000
+      internalID: 7930620853577109147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_217
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ab968acb96823e0800000000000000
+      internalID: -2078294969031214577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_218
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b4e2409c8d8fbf0800000000000000
+      internalID: -290243818095228121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_219
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadb59eedcce23110800000000000000
+      internalID: 1239313216695549354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_220
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36741a21cc7fb510800000000000000
+      internalID: 1567108364424738363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_221
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb02ab760ebea0500800000000000000
+      internalID: 363362069002199228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darinia_222
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff6d9fd8f2245fb0800000000000000
+      internalID: -4660061262122749968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Darinia_0: -3694487331466954623
+      Darinia_1: 5706214876912630791
+      Darinia_10: 671541018331107021
+      Darinia_100: -2732102339074347309
+      Darinia_101: 864319959937883781
+      Darinia_102: -2547536816262704803
+      Darinia_103: 1624285489050981104
+      Darinia_104: 5368121629168196166
+      Darinia_105: -4324433039732754185
+      Darinia_106: -3911168827262648483
+      Darinia_107: 7026433030351773752
+      Darinia_108: 2993573667716567174
+      Darinia_109: 657787839142600835
+      Darinia_11: -7067388211233106536
+      Darinia_110: -5746434697362312404
+      Darinia_111: 230161850145496150
+      Darinia_112: -8583810149847534132
+      Darinia_113: 6880241963613447329
+      Darinia_114: 7186706230453472829
+      Darinia_115: -3906552466709880501
+      Darinia_116: -5937914767689748860
+      Darinia_117: 9028958489505354527
+      Darinia_118: -5474841298414288239
+      Darinia_119: -7942645417343919790
+      Darinia_12: -2104165186319847914
+      Darinia_120: 4609037598161119861
+      Darinia_121: -7544996540122102104
+      Darinia_122: -5723703165834829528
+      Darinia_123: -8780710907173381959
+      Darinia_124: 2806606519336399810
+      Darinia_125: 936462063760658578
+      Darinia_126: 2165741845672050823
+      Darinia_127: -2410362348891141648
+      Darinia_128: 703263821860233057
+      Darinia_129: -4527199503877712604
+      Darinia_13: -382177058370584652
+      Darinia_130: 584938333932275459
+      Darinia_131: -3738309924321934538
+      Darinia_132: -7508655489048711514
+      Darinia_133: 3582101338302783635
+      Darinia_134: -6857397186971585136
+      Darinia_135: 8975408966640770348
+      Darinia_136: -9151203631298933951
+      Darinia_137: 1490443121056136096
+      Darinia_138: 5131430649762778505
+      Darinia_139: 7207499570614628904
+      Darinia_14: -4668909139630862600
+      Darinia_140: 4118941606342214102
+      Darinia_141: -4355031255209954642
+      Darinia_142: -5812628329412974133
+      Darinia_143: 2135273210496905774
+      Darinia_144: 4233964034091999547
+      Darinia_145: -8723371868081957695
+      Darinia_146: 5922397125252334995
+      Darinia_147: 7386703210483981034
+      Darinia_148: -2863983166669716580
+      Darinia_149: 3569824726122220248
+      Darinia_15: -8772245512021940526
+      Darinia_150: 2129566202641527273
+      Darinia_151: -8956246598411299595
+      Darinia_152: -7959754246605242822
+      Darinia_153: 8780239149506637865
+      Darinia_154: 5594471404910529910
+      Darinia_155: -7336663075772825804
+      Darinia_156: 5942229565374822277
+      Darinia_157: 402605984171718725
+      Darinia_158: -274683935956760003
+      Darinia_159: -7801675125304217146
+      Darinia_16: 8737806935680005237
+      Darinia_160: -4610674302183387041
+      Darinia_161: -2339918204991554138
+      Darinia_162: -7848670525782288167
+      Darinia_163: 8667961543830143056
+      Darinia_164: 11937614355174839
+      Darinia_165: 701776264661108534
+      Darinia_166: 5591499757120711098
+      Darinia_167: 3255207122384500657
+      Darinia_168: 52066905722373833
+      Darinia_169: -7274395490670671199
+      Darinia_17: -6656382560712017652
+      Darinia_170: 1474189588552952844
+      Darinia_171: 7255920330934272109
+      Darinia_172: -5400238014373607042
+      Darinia_173: 7337142785489334530
+      Darinia_174: -8332045892507803594
+      Darinia_175: -5150104200551063805
+      Darinia_176: -7557803698910786732
+      Darinia_177: 7707791948569865035
+      Darinia_178: -1378513595993890950
+      Darinia_179: 8732158450020473739
+      Darinia_18: -1336996096274479452
+      Darinia_180: 2219382666174374141
+      Darinia_181: 2502117074016204593
+      Darinia_182: -5616148050907961885
+      Darinia_183: -1256110155714603143
+      Darinia_184: 4837327864733123197
+      Darinia_185: 747108489199567637
+      Darinia_186: 7887332504838221351
+      Darinia_187: 3919264138847038711
+      Darinia_188: 1616373362935481852
+      Darinia_189: -5704141520307480062
+      Darinia_19: -240170280847507522
+      Darinia_190: 8295658963522165326
+      Darinia_191: 5989885835482719361
+      Darinia_192: 7253602485028570626
+      Darinia_193: 8718329874986887679
+      Darinia_194: 102823988353577772
+      Darinia_195: 6268544967935473779
+      Darinia_196: -3086749213831060989
+      Darinia_197: 1168595947931886042
+      Darinia_198: -1860948987353044722
+      Darinia_199: -3969226189329329597
+      Darinia_2: 2285751780789234693
+      Darinia_20: 4510481657197915269
+      Darinia_200: -4724757701485161314
+      Darinia_201: -6248272015295379283
+      Darinia_202: 3011186998187377362
+      Darinia_203: -1416287283410905580
+      Darinia_204: -419654420822240977
+      Darinia_205: -9195195668603863904
+      Darinia_206: -2615362613953277871
+      Darinia_207: 3478863375566112606
+      Darinia_208: -8750479588246688595
+      Darinia_209: -2159602905182600401
+      Darinia_21: -9013652417926213353
+      Darinia_210: 1329426090553914937
+      Darinia_211: -8521750540780520110
+      Darinia_212: -9115840366886900529
+      Darinia_213: 1444166115265653792
+      Darinia_214: -4953436513916359097
+      Darinia_215: 3972366045041880189
+      Darinia_216: 7930620853577109147
+      Darinia_217: -2078294969031214577
+      Darinia_218: -290243818095228121
+      Darinia_219: 1239313216695549354
+      Darinia_22: 617811008195788988
+      Darinia_220: 1567108364424738363
+      Darinia_221: 363362069002199228
+      Darinia_222: -4660061262122749968
+      Darinia_23: -3425178036631751134
+      Darinia_24: 4959060897663932571
+      Darinia_25: -8020874681126683693
+      Darinia_26: -1224279526735736772
+      Darinia_27: -7806473202405994285
+      Darinia_28: 483010892664955022
+      Darinia_29: 1891093110072535176
+      Darinia_3: -1173389331372736247
+      Darinia_30: -2164194347580764951
+      Darinia_31: -2769926298589773358
+      Darinia_32: -1000946373782535592
+      Darinia_33: 8031324743165231431
+      Darinia_34: -3296717901013071154
+      Darinia_35: -5584486455337605317
+      Darinia_36: 4934766961801640632
+      Darinia_37: 856064144812883842
+      Darinia_38: 8111291995529049140
+      Darinia_39: -3998503658521943575
+      Darinia_4: 9186637531168786478
+      Darinia_40: 392538552917604627
+      Darinia_41: 2101200835126131677
+      Darinia_42: -4816649426398066551
+      Darinia_43: 8661642857884952994
+      Darinia_44: -5771433503885021061
+      Darinia_45: 3589283450694416870
+      Darinia_46: 7774821617974154473
+      Darinia_47: 7807564003237439956
+      Darinia_48: 544007127114046240
+      Darinia_49: 2412745153246903567
+      Darinia_5: 8071493900221889558
+      Darinia_50: -386914396519173392
+      Darinia_51: -7786074440377921475
+      Darinia_52: 2995169454101544842
+      Darinia_53: 5813958215125314850
+      Darinia_54: -4659326523072327291
+      Darinia_55: 5777461864765245377
+      Darinia_56: -7735386366803146838
+      Darinia_57: 6124663493360256015
+      Darinia_58: -2180821509019142882
+      Darinia_59: 5303649776020622218
+      Darinia_6: -1310381172394540824
+      Darinia_60: -8032022919735224792
+      Darinia_61: 3781279981201907132
+      Darinia_62: 1334614722551350976
+      Darinia_63: -6037393217540068985
+      Darinia_64: -663193853886544332
+      Darinia_65: -5978465309299723988
+      Darinia_66: 2623787031656461329
+      Darinia_67: -8513684708731884059
+      Darinia_68: 112874208588761488
+      Darinia_69: 4351864752273491621
+      Darinia_7: 1318259947494433478
+      Darinia_70: 7443326218189064133
+      Darinia_71: 5983879442925035264
+      Darinia_72: 97475049957561483
+      Darinia_73: 8309801925712256064
+      Darinia_74: 5145056394646458047
+      Darinia_75: -8821396495120428262
+      Darinia_76: 6284106033166107585
+      Darinia_77: -4385657884727038026
+      Darinia_78: 5503114995968044690
+      Darinia_79: -4647960973794567554
+      Darinia_8: -4911201064917402861
+      Darinia_80: -5736130778920096389
+      Darinia_81: -1146405346439385573
+      Darinia_82: -322502650330381410
+      Darinia_83: -8562141407938114438
+      Darinia_84: -6334553866037772966
+      Darinia_85: -5015569919975396170
+      Darinia_86: -4987027838629792008
+      Darinia_87: -6686251391571381077
+      Darinia_88: 2442184544646003387
+      Darinia_89: 2356699916909379402
+      Darinia_9: -1441039038907941046
+      Darinia_90: -5308897313722526114
+      Darinia_91: -449023100097223654
+      Darinia_92: -3678762983633122789
+      Darinia_93: -1504371106240159041
+      Darinia_94: 7883426331885903078
+      Darinia_95: -157712698035408283
+      Darinia_96: 4937685718342930728
+      Darinia_97: 3940505630839615229
+      Darinia_98: 8351866329070327206
+      Darinia_99: -1948500590002206241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
