@@ -44,6 +44,7 @@ Interact="The prompt that tells you when you can interact"
 Area="The Area we are in."
 GameManager="Keeps track of the data and progress of the game"
 FadeOverlay="Fade in and fade out screen!"
+AreaTitle="Displays the Area name"
 
 [input]
 

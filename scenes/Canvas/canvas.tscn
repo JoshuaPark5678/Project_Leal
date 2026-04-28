@@ -4,7 +4,7 @@
 [ext_resource type="FontFile" uid="uid://k60erof85sjg" path="res://assets/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="2_na2cs"]
 [ext_resource type="Script" uid="uid://bkirtn6u0shi" path="res://scripts/UI/area_title.gd" id="3_7u7ov"]
 [ext_resource type="FontFile" uid="uid://cyplw5m1jus1x" path="res://assets/font/lieben_cloude_2402/Lieben_Cloude_Regular.woff2" id="4_mvmt1"]
-[ext_resource type="Script" uid="uid://dfux4yg2x2bs1" path="res://scripts/interact/InteractManager.gd" id="5_na2cs"]
+[ext_resource type="Script" uid="uid://dfux4yg2x2bs1" path="res://scripts/interaction/InteractManager.gd" id="5_na2cs"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i6yte"]
 
@@ -30,7 +30,7 @@ text = "FPS: "
 label_settings = SubResource("LabelSettings_i6yte")
 script = ExtResource("1_a3bhk")
 
-[node name="AreaTitle" type="Label" parent="." unique_id=1565329204]
+[node name="AreaTitle" type="Label" parent="." unique_id=1565329204 groups=["AreaTitle"]]
 anchors_preset = 10
 anchor_right = 1.0
 offset_left = -1.0
@@ -38,11 +38,9 @@ offset_top = 50.0
 offset_right = -1.0
 offset_bottom = 103.0
 grow_horizontal = 2
-text = "Campsite"
 label_settings = SubResource("LabelSettings_hjmlx")
 horizontal_alignment = 1
 script = ExtResource("3_7u7ov")
-area_name = "Campsite"
 
 [node name="Interact" type="Label" parent="." unique_id=462130371 groups=["Interact"]]
 anchors_preset = 10

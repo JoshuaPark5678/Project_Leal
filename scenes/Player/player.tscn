@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://dy2ppaa3x4285" path="res://assets/sprites/Player/player_sprite.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://bsdtrsjynwnkl" path="res://scripts/player_movement.gd" id="1_g2els"]
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="2_uiqp4"]
 [ext_resource type="Script" uid="uid://dfe5q0bctqbe3" path="res://scripts/player_combat.gd" id="3_qhqgy"]
 [ext_resource type="PackedScene" uid="uid://dsj2sc2vw3wm" path="res://scenes/Player/FX/slash1.tscn" id="4_c4h5g"]
 
@@ -670,7 +669,6 @@ height = 16.0
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=681646737]
-material = ExtResource("2_uiqp4")
 sprite_frames = SubResource("SpriteFrames_smehm")
 animation = &"axe_idle_side_blink"
 offset = Vector2(-0.5, -16)

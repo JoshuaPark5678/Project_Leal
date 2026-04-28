@@ -74,6 +74,7 @@ sources/1 = SubResource("TileSetAtlasSource_0jboo")
 
 [node name="t_tent" type="Node2D" unique_id=929747492 groups=["Area"]]
 y_sort_enabled = true
+metadata/area_name = "The Tent"
 
 [node name="Tiles" type="Node2D" parent="." unique_id=747208087]
 z_index = -1
