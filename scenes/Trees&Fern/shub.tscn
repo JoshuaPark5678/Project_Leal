@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cmw4spgxcs8f2"]
+
+[ext_resource type="Texture2D" uid="uid://c0ty0cix8cu5n" path="res://assets/sprites/Fern/shub.png" id="1_j2m3b"]
+
+[node name="shub" type="Node2D" unique_id=1724635616]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=492116581]
+texture = ExtResource("1_j2m3b")
+offset = Vector2(0, -7)

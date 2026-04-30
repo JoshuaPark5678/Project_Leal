@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://l4r4mvlj27cq"]
 
 [ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_6tyjd"]
-[ext_resource type="Texture2D" uid="uid://dblvxb0nu15hb" path="res://assets/sprites/Bush/bush1/branches.png" id="3_bg704"]
+[ext_resource type="Texture2D" uid="uid://dblvxb0nu15hb" path="res://assets/sprites/Fern/bush1/branches.png" id="3_bg704"]
 [ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_qbpgu"]
-[ext_resource type="Texture2D" uid="uid://fayuwircmyub" path="res://assets/sprites/Bush/bush1/leaves.png" id="5_tb34q"]
+[ext_resource type="Texture2D" uid="uid://fayuwircmyub" path="res://assets/sprites/Fern/bush1/leaves.png" id="5_tb34q"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6tyjd"]
 size = Vector2(18, 13)

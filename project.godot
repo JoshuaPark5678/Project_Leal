@@ -18,6 +18,10 @@ config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/scale_mode="integer"
 window/vsync/vsync_mode=0
 
 [file_customization]
@@ -32,6 +36,7 @@ folder_colors={
 "res://scenes/": "teal",
 "res://scenes/Player/": "purple",
 "res://scenes/Player/FX/": "red",
+"res://scenes/Tents/": "gray",
 "res://scripts/": "orange",
 "res://scripts/tools/": "purple",
 "res://shaders/": "pink"

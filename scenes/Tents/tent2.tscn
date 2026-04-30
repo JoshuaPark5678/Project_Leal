@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cf0ycfoh8s8yi"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_frvsi"]
+[ext_resource type="Texture2D" uid="uid://du1es67t4wm1d" path="res://assets/sprites/Tents/tent2.png" id="2_frvsi"]
+
+
+[node name="Tent" type="StaticBody2D" unique_id=153027652]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1590235454]
+material = ExtResource("1_frvsi")
+texture = ExtResource("2_frvsi")
+offset = Vector2(0, -34)
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." unique_id=152887948]
+position = Vector2(2, -23.5)
+polygon = PackedVector2Array(43, 15.5, 40, -1.5, -39, -0.5, -44, 24.5, 20, 28.5)

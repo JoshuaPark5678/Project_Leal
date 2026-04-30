@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://btyxu00rcagw2"]
 
-[ext_resource type="PackedScene" uid="uid://brth87uhkqvdu" path="res://scenes/grass_B.tscn" id="1_8yfsc"]
+[ext_resource type="PackedScene" uid="uid://brth87uhkqvdu" path="res://scenes/Trees&Fern/grass_B.tscn" id="1_8yfsc"]
 
 [node name="grasspatch_B" type="Node2D" unique_id=1722574454]
 y_sort_enabled = true
