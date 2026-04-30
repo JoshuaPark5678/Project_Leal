@@ -37,7 +37,7 @@ func _process(delta: float) -> void:
         var speed = fly_speed * min(1.0 + time * 0.5, 2.0)
         current_velocity = current_velocity.lerp(wobbled_dir.normalized() * speed, delta * 4.0)
         global_position += current_velocity * delta
-        if global_position.distance_to(get_viewport_rect().get_center()) > 1200.0:
+        if global_position.distance_to(get_viewport_rect().get_center()) > 12000.0:
             queue_free()
         return
 
