@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://dtja1vakc7arw"]
 
-[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://shaders/fog.gdshader" id="1_58gfx"]
+[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://Shaders/fog.gdshader" id="1_58gfx"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_3wwon"]
 noise_type = 3
@@ -21,7 +21,7 @@ noise = SubResource("FastNoiseLite_58gfx")
 [resource]
 resource_name = "FogAndSwayMaterial"
 shader = ExtResource("1_58gfx")
-shader_parameter/shader_enabled = true
+shader_parameter/shader_enabled = false
 shader_parameter/sway_enabled = true
 shader_parameter/noise_texture = SubResource("NoiseTexture2D_1du6c")
 shader_parameter/sway_speed = 0.10000000475
