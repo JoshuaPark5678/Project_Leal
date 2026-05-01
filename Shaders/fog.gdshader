@@ -3,6 +3,9 @@ shader_type canvas_item;
 // On / Off
 uniform bool shader_enabled = true;
 
+// Game resolution (for pixel snapping)
+uniform vec2 game_resolution = vec2(1280.0, 720.0);
+
 // Sway
 uniform bool sway_enabled = false;
 uniform sampler2D noise_texture : repeat_enable;
@@ -34,7 +37,8 @@ void fragment() {
         COLOR = texture(TEXTURE, UV);
     } else {
         vec2 pixel_size = TEXTURE_PIXEL_SIZE;
-        vec2 snapped_uv = floor(UV / pixel_size) * pixel_size;
+
+        vec2 snapped_uv = UV;
         vec2 displaced_uv = snapped_uv;
 
         if (sway_enabled) {
@@ -47,14 +51,13 @@ void fragment() {
 
         vec4 sprite_color = texture(TEXTURE, displaced_uv);
 
-        vec2 screen_pos = SCREEN_UV / SCREEN_PIXEL_SIZE;
+        vec2 screen_pos = SCREEN_UV * game_resolution;
 
         // Noise edge
         vec2 fog_noise_uv = screen_pos * fog_noise_scale + vec2(TIME * 0.02, TIME * 0.013);
         float edge_noise = texture(fog_noise, fog_noise_uv).r;
         float noise_offset = (edge_noise * 2.0 - 1.0) * fog_noise_strength;
 
-        // Player fog factor
         // Player fog factor
         float dist = length(screen_pos - player_position) + noise_offset;
         dist = max(dist, 0.0);

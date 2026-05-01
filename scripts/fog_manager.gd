@@ -51,6 +51,7 @@ func _update_materials() -> void:
 	var result = _sample()
 	for mat in materials:
 		if mat:
+			mat.set_shader_parameter("game_resolution", Vector2(1280, 720))
 			mat.set_shader_parameter("fog_color", result[0])
 			mat.set_shader_parameter("fog_density", result[1])
 			mat.set_shader_parameter("fog_distance", result[2])
