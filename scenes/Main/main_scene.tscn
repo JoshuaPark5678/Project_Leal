@@ -3,15 +3,16 @@
 [ext_resource type="Script" uid="uid://c58ux5puxo8br" path="res://scripts/game_manager.gd" id="1_gme3g"]
 [ext_resource type="PackedScene" uid="uid://b3mc7reenp3ox" path="res://scenes/Player/player.tscn" id="2_4bs2a"]
 [ext_resource type="Script" uid="uid://bpbqpa6pa31l1" path="res://scripts/fog_manager.gd" id="2_jjf88"]
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="3_k8wh8"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="3_k8wh8"]
 [ext_resource type="PackedScene" uid="uid://cxe3jcncwmkv" path="res://scenes/Canvas/canvas.tscn" id="3_t7vdo"]
-[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://Shaders/FogAndSwayMaterial.tres" id="4_4nuir"]
+[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_4nuir"]
 [ext_resource type="PackedScene" uid="uid://bmtegguasf3pr" path="res://scenes/Areas/t_wilderness.tscn" id="7_4nuir"]
 
 [node name="MainScene" type="Node" unique_id=697938033]
 
-[node name="GameManager" type="Node" parent="." unique_id=1614113453 node_paths=PackedStringArray("player", "camera") groups=["GameManager"]]
+[node name="GameManager" type="Node" parent="." unique_id=1614113453 node_paths=PackedStringArray("area_container", "player", "camera") groups=["GameManager"]]
 script = ExtResource("1_gme3g")
+area_container = NodePath("../Game/T_Wilderness")
 player = NodePath("../Game/Player")
 camera = NodePath("../Game/Player/Camera2D")
 

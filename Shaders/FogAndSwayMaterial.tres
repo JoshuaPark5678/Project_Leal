@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://dtja1vakc7arw"]
 
-[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://Shaders/fog.gdshader" id="1_58gfx"]
+[ext_resource type="Shader" uid="uid://pyne7vg56bua" path="res://shaders/fog.gdshader" id="1_58gfx"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_3wwon"]
 noise_type = 3
@@ -22,6 +22,7 @@ noise = SubResource("FastNoiseLite_58gfx")
 resource_name = "FogAndSwayMaterial"
 shader = ExtResource("1_58gfx")
 shader_parameter/shader_enabled = false
+shader_parameter/game_resolution = Vector2(1280, 720)
 shader_parameter/sway_enabled = true
 shader_parameter/noise_texture = SubResource("NoiseTexture2D_1du6c")
 shader_parameter/sway_speed = 0.10000000475
@@ -41,3 +42,6 @@ shader_parameter/campfire_active = false
 shader_parameter/campfire_light_color = Color(1, 0.70072466, 0.3532939, 1)
 shader_parameter/campfire_light_distance = 200.0000095
 shader_parameter/campfire_light_intensity = 0.50000002375
+shader_parameter/see_through_enabled = false
+shader_parameter/player_opacity = 0.5
+shader_parameter/player_see_through_radius = 80.0

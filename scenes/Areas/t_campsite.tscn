@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://cqvue1of4rfrt"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://Shaders/FogMaterial.tres" id="1_7osm6"]
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_7osm6"]
 [ext_resource type="PackedScene" uid="uid://c2eakbmkc7pev" path="res://scenes/interact.tscn" id="1_kx4uh"]
 [ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
 [ext_resource type="PackedScene" uid="uid://b6iw5ohtkpc4l" path="res://scenes/Trees&Fern/tree_1.tscn" id="2_oafpe"]
@@ -22,7 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://cu8fvuuma3j3h" path="res://scenes/Trees&Fern/log_1.tscn" id="17_tyd7y"]
 [ext_resource type="PackedScene" uid="uid://cbqc0857xekbb" path="res://scenes/birb1.tscn" id="19_63i8o"]
 [ext_resource type="PackedScene" uid="uid://fbplhfc1xeva" path="res://scenes/trigger_zone.tscn" id="20_hjmlx"]
-[ext_resource type="Texture2D" uid="uid://jc1ugltm2i0i" path="res://assets/sprites/Props/seeds.png" id="22_i6yte"]
+[ext_resource type="Texture2D" uid="uid://iso4b3c70kd4" path="res://assets/sprites/Props/seeds.png" id="22_i6yte"]
 [ext_resource type="PackedScene" uid="uid://fock1dug5y2y" path="res://scenes/birb2.tscn" id="24_tde8i"]
 [ext_resource type="PackedScene" uid="uid://bgm61xm2ljp0t" path="res://scenes/birb3.tscn" id="25_1n5h1"]
 [ext_resource type="PackedScene" uid="uid://cdr7anxtfmk65" path="res://scenes/birb4.tscn" id="26_m33ln"]
@@ -258,7 +258,6 @@ metadata/area_name = "The Campsite"
 [node name="Connectors" type="Node" parent="." unique_id=2010984447]
 
 [node name="To_Wilderness" parent="Connectors" unique_id=113039827 instance=ExtResource("20_hjmlx")]
-visible = false
 position = Vector2(105, 40)
 teleport = true
 scene_path = "uid://bmtegguasf3pr"

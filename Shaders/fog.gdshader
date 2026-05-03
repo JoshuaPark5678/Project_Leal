@@ -32,6 +32,12 @@ uniform vec4 campfire_light_color : source_color = vec4(1.0, 0.709, 0.353, 1.0);
 uniform float campfire_light_distance : hint_range(0.0, 500.0) = 150.0;
 uniform float campfire_light_intensity : hint_range(0.0, 1.0) = 0.6;
 
+// See through
+uniform bool see_through_enabled = false;
+uniform float player_opacity : hint_range(0.0, 1.0) = 0.5;
+uniform float player_see_through_radius : hint_range(0.0, 500.0) = 80.0;
+uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_nearest;
+
 void fragment() {
     if (!shader_enabled) {
         COLOR = texture(TEXTURE, UV);
@@ -94,6 +100,12 @@ void fragment() {
             final_color = mix(final_color, campfire_light_color.rgb, light_factor);
         }
 
-        COLOR = vec4(final_color, sprite_color.a);
+        if (see_through_enabled) {
+            float see_dist = length(screen_pos - player_position);
+            float see_factor = 1.0 - smoothstep(0.0, player_see_through_radius, see_dist);
+            COLOR = vec4(final_color, sprite_color.a * COLOR.a * (1.0 - see_factor * (1.0 - player_opacity)));
+        } else {
+            COLOR = vec4(final_color, sprite_color.a * COLOR.a);
+        }
     }
 }

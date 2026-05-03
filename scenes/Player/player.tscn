@@ -673,6 +673,14 @@ sprite_frames = SubResource("SpriteFrames_smehm")
 animation = &"axe_idle_side_blink"
 offset = Vector2(-0.5, -16)
 
+[node name="AnimatedSprite2DTop" type="AnimatedSprite2D" parent="." unique_id=1911280013]
+modulate = Color(1, 1, 1, 0.039215688)
+self_modulate = Color(1, 1, 1, 0.078431375)
+z_index = 2000
+sprite_frames = SubResource("SpriteFrames_smehm")
+animation = &"axe_idle_side_blink"
+offset = Vector2(-0.5, -16)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1729470082]
 position = Vector2(0, -8)
 shape = SubResource("CapsuleShape2D_ur7pv")

@@ -6,7 +6,7 @@
 [ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_woy2v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
-size = Vector2(6, 9)
+size = Vector2(2.75, 4.625)
 
 [node name="tree_1" type="StaticBody2D" unique_id=243921608]
 

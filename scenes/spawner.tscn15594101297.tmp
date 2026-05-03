@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ct8tajcby1g6b"]
+
+[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_tx2ig"]
+[ext_resource type="Texture2D" uid="uid://0g3c7wwh4y5j" path="res://assets/sprites/Fern/plants.png" id="2_6bbd6"]
+[ext_resource type="Script" uid="uid://bald5m8aimqh5" path="res://scripts/plant_spawner.gd" id="3_cmhla"]
+
+[node name="spawner" type="MultiMeshInstance2D" unique_id=369687987]
+material = ExtResource("1_tx2ig")
+script = ExtResource("3_cmhla")
+sprite_texture = ExtResource("2_6bbd6")
+frame_size = Vector2(8, 16)

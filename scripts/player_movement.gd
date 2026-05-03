@@ -10,6 +10,7 @@ extends CharacterBody2D
 @export var blink_max_time := 7.0
 
 @onready var sprite = $AnimatedSprite2D
+@onready var sprite_top = $AnimatedSprite2DTop
 @onready var combat = $CombatSystem
 
 var fog_materials: Array[ShaderMaterial] = []
@@ -37,6 +38,12 @@ func _ready():
 	sprite.animation_finished.connect(_on_animation_finished)
 	find_all_fog_materials(get_tree().root)
 	enable_all_shaders(true)
+	
+	# top sprite setup
+	sprite_top.sprite_frames = sprite.sprite_frames
+	sprite_top.modulate.a = 0.4
+	sprite_top.z_index = 100
+	sprite_top.z_as_relative = false
 
 # SHADER SHINANIGANS
 func find_all_fog_materials(node: Node) -> void:
@@ -98,8 +105,15 @@ func _physics_process(delta):
 
 	update_animation()
 	update_blink(delta)
+	_sync_top_sprite()
 
-
+func _sync_top_sprite() -> void:
+	if sprite_top.animation != sprite.animation:
+		sprite_top.play(sprite.animation)
+	sprite_top.frame = sprite.frame
+	sprite_top.flip_h = sprite.flip_h
+	sprite_top.position = sprite.position
+	
 # ==================================================
 # ROLL SYSTEM
 # ==================================================

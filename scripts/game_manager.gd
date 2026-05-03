@@ -8,6 +8,10 @@ var fade_overlay : ColorRect
 var area_title: Label
 
 func _ready() -> void:
+	if not area_container:
+		area_container = get_tree().get_firt_node_in_group("Area") 
+		print("Auto selected Area to:" + str(area_container))
+
 	fade_overlay = get_tree().get_first_node_in_group("FadeOverlay")
 	if fade_overlay:
 		fade_overlay.visible = true
