@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://cbqc0857xekbb"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_ewtqf"]
 [ext_resource type="Script" uid="uid://bw1kr1ysvnwmw" path="res://scripts/bird.gd" id="1_fci01"]
-[ext_resource type="Texture2D" uid="uid://bk6pefwl55ung" path="res://assets/sprites/Birds/birb.png" id="1_pr850"]
+[ext_resource type="Texture2D" uid="uid://babssx44ws54k" path="res://assets/sprites/Birds/birb.png" id="1_pr850"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_66b4q"]
 atlas = ExtResource("1_pr850")
@@ -211,7 +210,6 @@ script = ExtResource("1_fci01")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=701052283]
 z_index = 1000
-material = ExtResource("1_ewtqf")
 sprite_frames = SubResource("SpriteFrames_bo340")
 animation = &"idle"
 autoplay = "idle"

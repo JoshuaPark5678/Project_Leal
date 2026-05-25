@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://bkirtn6u0shi" path="res://scripts/UI/area_title.gd" id="3_7u7ov"]
 [ext_resource type="FontFile" uid="uid://cyplw5m1jus1x" path="res://assets/font/lieben_cloude_2402/Lieben_Cloude_Regular.woff2" id="4_mvmt1"]
 [ext_resource type="Script" uid="uid://dfux4yg2x2bs1" path="res://scripts/interaction/InteractManager.gd" id="5_na2cs"]
+[ext_resource type="Material" uid="uid://cy35u06fxnrmd" path="res://shaders/FogOverlayMaterial.tres" id="6_7u7ov"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i6yte"]
 
@@ -52,6 +53,15 @@ text = "Press E"
 label_settings = SubResource("LabelSettings_tde8i")
 horizontal_alignment = 1
 script = ExtResource("5_na2cs")
+
+[node name="FogOverlay" type="ColorRect" parent="." unique_id=1533771708 groups=["FogOverlay"]]
+visible = false
+material = ExtResource("6_7u7ov")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="FadeOverlay" type="ColorRect" parent="." unique_id=1531715755 groups=["FadeOverlay"]]
 visible = false

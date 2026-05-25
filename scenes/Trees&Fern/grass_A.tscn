@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://bye7mfvwtvh3f"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_28xrc"]
 [ext_resource type="Script" uid="uid://dikbm2tecf4cj" path="res://scripts/grass_sway.gd" id="2_svhhq"]
 [ext_resource type="Texture2D" uid="uid://koof2xh78yaa" path="res://assets/sprites/Grass/grass_A_1.png" id="3_28xrc"]
 [ext_resource type="Texture2D" uid="uid://c1nsrer5wh4kl" path="res://assets/sprites/Grass/grass_A_2.png" id="4_28xrc"]
@@ -10,7 +9,6 @@ radius = 5.0
 height = 18.0
 
 [node name="grass_A" type="Area2D" unique_id=686814752]
-material = ExtResource("1_28xrc")
 script = ExtResource("2_svhhq")
 
 [node name="blade1" type="Sprite2D" parent="." unique_id=1472404778]

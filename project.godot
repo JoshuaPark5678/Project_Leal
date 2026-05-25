@@ -22,6 +22,7 @@ window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 window/stretch/scale_mode="integer"
+window/vsync/vsync_mode=0
 
 [file_customization]
 
@@ -49,6 +50,7 @@ Area="The Area we are in."
 GameManager="Keeps track of the data and progress of the game"
 FadeOverlay="Fade in and fade out screen!"
 AreaTitle="Displays the Area name"
+FogOverlay="The fog that the player sees on top of the screen."
 
 [input]
 

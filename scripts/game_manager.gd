@@ -5,19 +5,14 @@ extends Node
 @export var player: Node
 @export var camera: Camera2D
 var fade_overlay : ColorRect
+var fog_overlay : ColorRect
 var area_title: Label
 
 func _ready() -> void:
 	if not area_container:
-		area_container = get_tree().get_firt_node_in_group("Area") 
+		area_container = get_tree().get_first_node_in_group("Area") 
 		print("Auto selected Area to:" + str(area_container))
-
-	fade_overlay = get_tree().get_first_node_in_group("FadeOverlay")
-	if fade_overlay:
-		fade_overlay.visible = true
-		fade_overlay.modulate.a = 0.0
-	else: 
-		print("Warning: No fade overlay found in the scene tree. Please add a ColorRect to a CanvasLayer and assign it to the 'FadeOverlay' group.")
+		
 	area_title = get_tree().get_first_node_in_group("AreaTitle")
 	if area_title:
 		# Get current area
@@ -25,8 +20,21 @@ func _ready() -> void:
 		area_title._play_sequence(current_area)
 	else:
 		print("Warning: No AreaTitle node found in the scene tree. Please add a Label to your UI and assign it to the 'AreaTitle' group.")
-
-
+	
+	fade_overlay = get_tree().get_first_node_in_group("FadeOverlay")
+	if fade_overlay:
+		fade_overlay.visible = true
+		fade_overlay.modulate.a = 0.0
+	else: 
+		print("Warning: No fade overlay found in the scene tree. Please add a ColorRect to a CanvasLayer and assign it to the 'FadeOverlay' group.")
+	
+	fog_overlay = get_tree().get_first_node_in_group("FogOverlay")
+	if fog_overlay:
+		if get_tree().get_first_node_in_group("Area").has_meta("disable_fog"):
+			fog_overlay.visible = not get_tree().get_first_node_in_group("Area").get_meta("disable_fog")
+		else:
+			fog_overlay.visible = true
+	
 func travel_to(scene_path: String = "", marker_name: String = "") -> void:
 	await _fade(1.0)
 
@@ -46,7 +54,13 @@ func travel_to(scene_path: String = "", marker_name: String = "") -> void:
 		current_area = new_area.get_meta("area_name")
 	else:
 		current_area = new_area.name
-
+		
+	if fog_overlay:
+		if new_area.has_meta("disable_fog"):
+			fog_overlay.visible = not new_area.get_meta("disable_fog")
+		else:
+			fog_overlay.visible = true
+			
 	var marker = new_area.find_child(marker_name, true, false)
 	if marker and player:
 		player.global_position = marker.global_position
@@ -67,9 +81,18 @@ func _fade(target: float) -> void:
 		var tween = create_tween()
 		tween.tween_property(fade_overlay, "modulate:a", target, 0.4)
 		await tween.finished
+	
+	if fog_overlay:
+		var tween = create_tween()
+		tween.tween_property(fade_overlay, "modulate:a", target, 0.4)
+		await tween.finished
+	
 	if area_title:
 		area_title.modulate.a = 0.0
 
+func update_fog() -> void:
+	# We only want fog in certain areas.
+	return
 # Flags
 var flags: Dictionary = {}
 

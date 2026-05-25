@@ -1,9 +1,8 @@
 [gd_scene format=3 uid="uid://l4r4mvlj27cq"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_6tyjd"]
-[ext_resource type="Texture2D" uid="uid://dblvxb0nu15hb" path="res://assets/sprites/Fern/bush1/branches.png" id="3_bg704"]
-[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_qbpgu"]
-[ext_resource type="Texture2D" uid="uid://fayuwircmyub" path="res://assets/sprites/Fern/bush1/leaves.png" id="5_tb34q"]
+[ext_resource type="Texture2D" uid="uid://ck3r7touag0es" path="res://assets/sprites/Fern/bush1/branches.png" id="3_bg704"]
+[ext_resource type="Material" uid="uid://c3cr7rp6ostkn" path="res://shaders/SwayMaterial.tres" id="3_r3sd0"]
+[ext_resource type="Texture2D" uid="uid://c4hfjf6xjc5gs" path="res://assets/sprites/Fern/bush1/leaves.png" id="5_tb34q"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6tyjd"]
 size = Vector2(18, 13)
@@ -11,12 +10,11 @@ size = Vector2(18, 13)
 [node name="bush_1" type="StaticBody2D" unique_id=243921608]
 
 [node name="Branches" type="Sprite2D" parent="." unique_id=317745091]
-material = ExtResource("1_6tyjd")
 texture = ExtResource("3_bg704")
 offset = Vector2(1.5, -42)
 
 [node name="Leaves" type="Sprite2D" parent="." unique_id=1751794840]
-material = ExtResource("4_qbpgu")
+material = ExtResource("3_r3sd0")
 texture = ExtResource("5_tb34q")
 offset = Vector2(1.5, -42)
 

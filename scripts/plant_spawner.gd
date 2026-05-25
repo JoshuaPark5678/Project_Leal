@@ -9,12 +9,14 @@ extends Node2D
 @export var scale_min: float = 0.8
 @export var scale_max: float = 1.3
 @export var offset_range: float = 6.0
-@export var shade_material: ShaderMaterial
 
 func _ready() -> void:
+	z_index = -1
+	z_as_relative = false
 	_spawn()
 
 func _spawn() -> void:
+	
 	if not spawn_layer:
 		push_error("VegetationSpawner: no spawn layer assigned")
 		return
@@ -50,9 +52,6 @@ func _spawn() -> void:
 
 		mmi.multimesh = mm
 		mmi.texture = sprite_texture
-
-		if shade_material:
-			mmi.material = shade_material
 
 		for i in range(instances.size()):
 			var cell = instances[i]

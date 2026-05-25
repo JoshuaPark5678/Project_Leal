@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c3cr7rp6ostkn"]
+
+[ext_resource type="Shader" uid="uid://7hhebxa21woj" path="res://shaders/sway.gdshader" id="1_00dxv"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_f5v4j"]
+frequency = 0.016
+domain_warp_enabled = true
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_6hnbg"]
+noise = SubResource("FastNoiseLite_f5v4j")
+
+[resource]
+shader = ExtResource("1_00dxv")
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_6hnbg")
+shader_parameter/sway_speed = 0.0800000038
+shader_parameter/sway_strength = 2.000000095

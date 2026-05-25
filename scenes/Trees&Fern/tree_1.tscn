@@ -1,9 +1,8 @@
 [gd_scene format=3 uid="uid://b6iw5ohtkpc4l"]
 
-[ext_resource type="Material" uid="uid://c0vigrs7ur8ac" path="res://shaders/FogMaterial.tres" id="1_b2jax"]
-[ext_resource type="Texture2D" uid="uid://nuniinj67mpp" path="res://assets/sprites/Trees/tree1/tree_1_trunk.png" id="3_pe641"]
-[ext_resource type="Texture2D" uid="uid://qc38b85m42dq" path="res://assets/sprites/Trees/tree1/tree_1_leaves.png" id="4_1du6c"]
-[ext_resource type="Material" uid="uid://dtja1vakc7arw" path="res://shaders/FogAndSwayMaterial.tres" id="4_pe641"]
+[ext_resource type="Material" uid="uid://c3cr7rp6ostkn" path="res://shaders/SwayMaterial.tres" id="3_o4th1"]
+[ext_resource type="Texture2D" uid="uid://cytvvk4h1sk26" path="res://assets/sprites/Trees/tree1/tree_1_trunk.png" id="3_pe641"]
+[ext_resource type="Texture2D" uid="uid://cp5nmwd5v2my4" path="res://assets/sprites/Trees/tree1/tree_1_leaves.png" id="4_1du6c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
 size = Vector2(2, 3)
@@ -11,12 +10,11 @@ size = Vector2(2, 3)
 [node name="tree_1" type="StaticBody2D" unique_id=243921608]
 
 [node name="Trunk" type="Sprite2D" parent="." unique_id=317745091]
-material = ExtResource("1_b2jax")
 texture = ExtResource("3_pe641")
 offset = Vector2(0, -32)
 
 [node name="Leaves" type="Sprite2D" parent="." unique_id=1751794840]
-material = ExtResource("4_pe641")
+material = ExtResource("3_o4th1")
 texture = ExtResource("4_1du6c")
 offset = Vector2(0, -28)
 

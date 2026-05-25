@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://5gk24pi4dvaa"]
 
 [ext_resource type="PackedScene" uid="uid://c2eakbmkc7pev" path="res://scenes/interact.tscn" id="2_0jboo"]
-[ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="2_3vc26"]
-[ext_resource type="Texture2D" uid="uid://bhvf4d8mc8oug" path="res://assets/tilemaps/tent_tiles_1.png" id="2_rqn2a"]
+[ext_resource type="Texture2D" uid="uid://c78ujnsfesvxu" path="res://assets/tilemaps/ground_tiles_1.png" id="2_3vc26"]
+[ext_resource type="Texture2D" uid="uid://b073ne1xgbfxw" path="res://assets/tilemaps/tent_tiles_1.png" id="2_rqn2a"]
 [ext_resource type="Texture2D" uid="uid://0g7rxa5j1cvb" path="res://assets/tilemaps/special_tiles_1.png" id="3_4bjbc"]
-[ext_resource type="Texture2D" uid="uid://b8ckj8pcnegi1" path="res://assets/sprites/Props/light.png" id="3_rqn2a"]
+[ext_resource type="Texture2D" uid="uid://dfpfvnkselk2q" path="res://assets/sprites/Props/light.png" id="3_rqn2a"]
 [ext_resource type="Texture2D" uid="uid://cpujimqll6tn5" path="res://assets/sprites/Props/lantern.png" id="4_0jboo"]
 [ext_resource type="Texture2D" uid="uid://dk4beg05dhjmv" path="res://assets/sprites/Props/light_spot.png" id="6_4bjbc"]
 
@@ -304,6 +304,7 @@ sources/1 = SubResource("TileSetAtlasSource_8n6ei")
 [node name="t_tent" type="Node2D" unique_id=929747492 groups=["Area"]]
 y_sort_enabled = true
 metadata/area_name = "The Tent"
+metadata/disable_fog = true
 
 [node name="Tiles" type="Node2D" parent="." unique_id=747208087]
 z_index = -1

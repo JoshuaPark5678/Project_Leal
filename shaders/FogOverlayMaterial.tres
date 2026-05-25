@@ -1,0 +1,24 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cy35u06fxnrmd"]
+
+[ext_resource type="Shader" uid="uid://c5qmrtabmk21" path="res://shaders/fog_overlay.gdshader" id="1_64vfx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_7u7ov"]
+noise_type = 3
+frequency = 0.5
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_mvmt1"]
+noise = SubResource("FastNoiseLite_7u7ov")
+
+[resource]
+resource_name = "FogOverlayMaterial"
+shader = ExtResource("1_64vfx")
+shader_parameter/game_resolution = Vector2(1280, 720)
+shader_parameter/fog_color = Color(0.8064519, 0.8968944, 0.9658229, 1)
+shader_parameter/fog_density = 0.2000000095
+shader_parameter/fog_distance = 400.0
+shader_parameter/fog_noise_strength = 80.0
+shader_parameter/fog_noise_scale = 0.005
+shader_parameter/min_visibility = 0.1
+shader_parameter/max_visibility = 0.8
+shader_parameter/fog_noise = SubResource("NoiseTexture2D_mvmt1")
+shader_parameter/player_position = Vector2(0, 0)

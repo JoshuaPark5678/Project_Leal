@@ -670,7 +670,8 @@ script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=681646737]
 sprite_frames = SubResource("SpriteFrames_smehm")
-animation = &"axe_idle_side_blink"
+animation = &"axe_walk_up"
+frame_progress = 0.9058322
 offset = Vector2(-0.5, -16)
 
 [node name="AnimatedSprite2DTop" type="AnimatedSprite2D" parent="." unique_id=1911280013]

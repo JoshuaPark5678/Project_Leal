@@ -14,6 +14,7 @@ extends CharacterBody2D
 @onready var combat = $CombatSystem
 
 var fog_materials: Array[ShaderMaterial] = []
+@onready var FogOverlay = get_tree().get_first_node_in_group("FogOverlay")
 
 var movement := Vector2.ZERO
 var facing_direction := Vector2.DOWN
@@ -37,7 +38,7 @@ func _ready():
 	reset_blink_timer()
 	sprite.animation_finished.connect(_on_animation_finished)
 	find_all_fog_materials(get_tree().root)
-	enable_all_shaders(true)
+	enable_fog(true)
 	
 	# top sprite setup
 	sprite_top.sprite_frames = sprite.sprite_frames
@@ -54,9 +55,9 @@ func find_all_fog_materials(node: Node) -> void:
 				fog_materials.append(mat)
 		find_all_fog_materials(child)
 
-func enable_all_shaders(enable = true) -> void:
-	for mat in fog_materials:
-		mat.set_shader_parameter("shader_enabled", enable)
+func enable_fog(enable = true) -> void:
+	FogOverlay.visible = true
+	
 
 func _physics_process(delta):
 
