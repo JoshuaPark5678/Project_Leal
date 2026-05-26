@@ -101,8 +101,11 @@ func _physics_process(delta):
 		combat.toggle_equipped()
 	
 	# ---- Attack Input ----
-	if Input.is_action_just_pressed("attack") and combat.can_attack():
-		combat.attack()
+	if Input.is_action_just_pressed("attack"):
+		if combat.can_attack():
+			combat.attack()
+		elif combat.combo_count == 1 and combat.combo_timer.time_left > 0:
+			combat.combo_buffered = true
 
 	update_animation()
 	update_blink(delta)

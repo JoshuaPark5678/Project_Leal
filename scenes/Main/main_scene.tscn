@@ -5,7 +5,8 @@
 [ext_resource type="Script" uid="uid://bpbqpa6pa31l1" path="res://scripts/fog_manager.gd" id="2_jjf88"]
 [ext_resource type="Material" uid="uid://cy35u06fxnrmd" path="res://shaders/FogOverlayMaterial.tres" id="3_5esae"]
 [ext_resource type="PackedScene" uid="uid://cxe3jcncwmkv" path="res://scenes/Canvas/canvas.tscn" id="3_t7vdo"]
-[ext_resource type="PackedScene" uid="uid://cqvue1of4rfrt" path="res://scenes/Areas/t_campsite.tscn" id="6_5esae"]
+[ext_resource type="PackedScene" uid="uid://bmtegguasf3pr" path="res://scenes/Areas/t_wilderness.tscn" id="6_5esae"]
+[ext_resource type="Script" uid="uid://ch2whfjifoi67" path="res://scripts/camera.gd" id="6_k8wh8"]
 
 [node name="MainScene" type="Node" unique_id=697938033]
 
@@ -28,6 +29,7 @@ y_sort_enabled = true
 position = Vector2(-131, -36)
 
 [node name="Camera2D" type="Camera2D" parent="Game/Player" unique_id=1688567580]
+position = Vector2(0, -15)
 zoom = Vector2(2, 2)
 process_callback = 0
 position_smoothing_enabled = true
@@ -38,5 +40,6 @@ drag_right_margin = 0.1
 drag_bottom_margin = 0.1
 editor_draw_limits = true
 editor_draw_drag_margin = true
+script = ExtResource("6_k8wh8")
 
-[node name="T_Campsite" parent="Game" unique_id=255730054 instance=ExtResource("6_5esae")]
+[node name="T_Wilderness" parent="Game" unique_id=981647814 instance=ExtResource("6_5esae")]

@@ -1,3 +1,8 @@
 {
-	"godotTools.editorPath.godot4": "/usr/bin/godot"
+	"godotTools.editorPath.godot4": "/usr/bin/godot",
+	"[gdscript]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.detectIndentation": false
+	}
 }

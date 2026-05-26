@@ -6,6 +6,7 @@ extends Node
 @export var camera: Camera2D
 var fade_overlay : ColorRect
 var fog_overlay : ColorRect
+var area : Node2D 
 var area_title: Label
 
 func _ready() -> void:
@@ -14,10 +15,12 @@ func _ready() -> void:
 		print("Auto selected Area to:" + str(area_container))
 		
 	area_title = get_tree().get_first_node_in_group("AreaTitle")
-	if area_title:
-		# Get current area
-		current_area = get_tree().get_first_node_in_group("Area").get_meta("area_name")
-		area_title._play_sequence(current_area)
+	area = get_tree().get_first_node_in_group("Area")
+	if area_title and area:
+		if area.has_meta("area_name"):
+			# Get current area
+			current_area = area.get_meta("area_name")
+			area_title._play_sequence(current_area)
 	else:
 		print("Warning: No AreaTitle node found in the scene tree. Please add a Label to your UI and assign it to the 'AreaTitle' group.")
 	
@@ -29,9 +32,9 @@ func _ready() -> void:
 		print("Warning: No fade overlay found in the scene tree. Please add a ColorRect to a CanvasLayer and assign it to the 'FadeOverlay' group.")
 	
 	fog_overlay = get_tree().get_first_node_in_group("FogOverlay")
-	if fog_overlay:
-		if get_tree().get_first_node_in_group("Area").has_meta("disable_fog"):
-			fog_overlay.visible = not get_tree().get_first_node_in_group("Area").get_meta("disable_fog")
+	if fog_overlay and area:
+		if area.has_meta("disable_fog"):
+			fog_overlay.visible = not area.get_meta("disable_fog")
 		else:
 			fog_overlay.visible = true
 	
