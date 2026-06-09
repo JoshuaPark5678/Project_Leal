@@ -38,7 +38,6 @@ func _ready():
 	reset_blink_timer()
 	sprite.animation_finished.connect(_on_animation_finished)
 	find_all_fog_materials(get_tree().root)
-	enable_fog(true)
 	
 	# top sprite setup
 	sprite_top.sprite_frames = sprite.sprite_frames
@@ -54,11 +53,8 @@ func find_all_fog_materials(node: Node) -> void:
 			if mat.shader and mat.get_shader_parameter("player_position") != null:
 				fog_materials.append(mat)
 		find_all_fog_materials(child)
-
-func enable_fog(enable = true) -> void:
-	FogOverlay.visible = true
 	
-
+	
 func _physics_process(delta):
 
 	update_fog_shader()
@@ -132,6 +128,9 @@ func start_roll():
 
 	sprite.play("roll")
 
+	# disable collision with log layer
+	set_collision_mask_value(2, false)
+
 
 func update_roll(delta):
 
@@ -148,6 +147,9 @@ func update_roll(delta):
 
 	if roll_timer <= 0:
 		is_rolling = false
+		
+		# re-enable collision with log layer
+		set_collision_mask_value(2, true)
 
 
 # ==================================================

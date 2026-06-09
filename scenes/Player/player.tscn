@@ -395,7 +395,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_down",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -415,7 +415,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_down_2",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -429,7 +429,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_side",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -449,7 +449,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_side_2",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -463,7 +463,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_up",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -483,7 +483,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"axe_attack_up_2",
-"speed": 10.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -786,11 +786,13 @@ radius = 5.0
 height = 16.0
 
 [node name="Player" type="CharacterBody2D" unique_id=285414616 groups=["Player"]]
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=681646737]
 sprite_frames = SubResource("SpriteFrames_smehm")
-animation = &"axe_attack_side_2"
+animation = &"axe_attack_down_2"
 offset = Vector2(-0.5, -16)
 
 [node name="AnimatedSprite2DTop" type="AnimatedSprite2D" parent="." unique_id=1911280013]

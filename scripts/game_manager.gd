@@ -35,6 +35,7 @@ func _ready() -> void:
 	if fog_overlay and area:
 		if area.has_meta("disable_fog"):
 			fog_overlay.visible = not area.get_meta("disable_fog")
+			print("Found meta for disabling Fog.", not area.get_meta("disable_fog"))
 		else:
 			fog_overlay.visible = true
 	

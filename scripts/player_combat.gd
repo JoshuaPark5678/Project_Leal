@@ -145,7 +145,9 @@ func _spawn_slash(direction: Vector2, is_combo: bool) -> void:
 
 	var slash := slash_scene.instantiate()
 	player.get_parent().add_child(slash)
-	slash.global_position = player.global_position + Vector2(0, -10) + direction * slash_offset
+	var forward_speed := maxf(player.velocity.dot(direction), 0.0)
+	var move_offset   := direction * forward_speed * 0.1
+	slash.global_position = player.global_position + Vector2(0, -10) + direction * slash_offset + move_offset
 	slash.velocity = player.velocity * 0.5 * 0.2
 	slash.rotation = direction.angle() + PI / 2
 
