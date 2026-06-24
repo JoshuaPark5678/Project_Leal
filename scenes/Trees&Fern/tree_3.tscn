@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://ij2hxaa0i3ll"]
 
-[ext_resource type="Texture2D" uid="uid://bibrp0eh1orek" path="res://assets/sprites/Trees/tree3/trunk.png" id="2_27jge"]
+[ext_resource type="Texture2D" uid="uid://37ihresafldg" path="res://assets/sprites/Trees/tree3/trunk.png" id="2_27jge"]
 [ext_resource type="Material" uid="uid://c3cr7rp6ostkn" path="res://shaders/SwayMaterial.tres" id="3_uk5l8"]
-[ext_resource type="Texture2D" uid="uid://cxav6ksmje7to" path="res://assets/sprites/Trees/tree3/leaves.png" id="4_0b1i4"]
+[ext_resource type="Texture2D" uid="uid://cv1wicoot2lnx" path="res://assets/sprites/Trees/tree3/leaves.png" id="4_0b1i4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tem7l"]
 size = Vector2(2.75, 4.625)

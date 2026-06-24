@@ -6,13 +6,13 @@
 [ext_resource type="Material" uid="uid://cy35u06fxnrmd" path="res://shaders/FogOverlayMaterial.tres" id="3_5esae"]
 [ext_resource type="PackedScene" uid="uid://cxe3jcncwmkv" path="res://scenes/Canvas/canvas.tscn" id="3_t7vdo"]
 [ext_resource type="Script" uid="uid://ch2whfjifoi67" path="res://scripts/camera.gd" id="6_k8wh8"]
-[ext_resource type="PackedScene" uid="uid://5auieefbgiff" path="res://scenes/Areas/t_the_clearing.tscn" id="7_k8wh8"]
+[ext_resource type="PackedScene" uid="uid://cqvue1of4rfrt" path="res://scenes/Areas/t_campsite.tscn" id="7_k8wh8"]
 
 [node name="MainScene" type="Node" unique_id=697938033]
 
 [node name="GameManager" type="Node" parent="." unique_id=1614113453 node_paths=PackedStringArray("area_container", "player", "camera") groups=["GameManager"]]
 script = ExtResource("1_gme3g")
-area_container = NodePath("../Game/T_The_Clearing")
+area_container = NodePath("../Game/T_Campsite")
 player = NodePath("../Game/Player")
 camera = NodePath("../Game/Player/Camera2D")
 
@@ -43,14 +43,17 @@ editor_draw_limits = true
 editor_draw_drag_margin = true
 script = ExtResource("6_k8wh8")
 
-[node name="T_The_Clearing" parent="Game" unique_id=981647814 instance=ExtResource("7_k8wh8")]
+[node name="T_Campsite" parent="Game" unique_id=981647814 instance=ExtResource("7_k8wh8")]
+metadata/_edit_lock_ = true
 
 [node name="Lighting" type="Node" parent="." unique_id=1634368974]
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="Lighting" unique_id=1914352809]
+visible = false
 color = Color(0.7776967, 0.78417, 0.69900924, 1)
 shadow_enabled = true
 shadow_color = Color(0, 0, 0, 1)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="Lighting" unique_id=113046170]
+visible = false
 color = Color(0.16555688, 0.220738, 0.42837864, 1)

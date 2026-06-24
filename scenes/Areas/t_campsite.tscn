@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://cqvue1of4rfrt"]
 
 [ext_resource type="PackedScene" uid="uid://c2eakbmkc7pev" path="res://scenes/interact.tscn" id="1_kx4uh"]
-[ext_resource type="Texture2D" uid="uid://c78ujnsfesvxu" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
+[ext_resource type="Texture2D" uid="uid://ciwn7pt1ie3l" path="res://assets/tilemaps/ground_tiles_1.png" id="1_qmqsv"]
 [ext_resource type="PackedScene" uid="uid://b6iw5ohtkpc4l" path="res://scenes/Trees&Fern/tree_1.tscn" id="2_oafpe"]
 [ext_resource type="Texture2D" uid="uid://0g7rxa5j1cvb" path="res://assets/tilemaps/special_tiles_1.png" id="3_634y8"]
 [ext_resource type="PackedScene" uid="uid://btyxu00rcagw2" path="res://scenes/Trees&Fern/grasspatch_B.tscn" id="4_hjmlx"]
@@ -20,12 +20,12 @@
 [ext_resource type="PackedScene" uid="uid://ij2hxaa0i3ll" path="res://scenes/Trees&Fern/tree_3.tscn" id="11_mvpe6"]
 [ext_resource type="PackedScene" uid="uid://c3clevmtei5yi" path="res://scenes/rock_1.tscn" id="14_j3614"]
 [ext_resource type="PackedScene" uid="uid://cu8fvuuma3j3h" path="res://scenes/Trees&Fern/log_1.tscn" id="17_tyd7y"]
-[ext_resource type="PackedScene" uid="uid://cbqc0857xekbb" path="res://scenes/birb1.tscn" id="19_63i8o"]
+[ext_resource type="PackedScene" uid="uid://cbqc0857xekbb" path="res://scenes/Birds/birb1.tscn" id="19_63i8o"]
 [ext_resource type="PackedScene" uid="uid://fbplhfc1xeva" path="res://scenes/trigger_zone.tscn" id="20_hjmlx"]
-[ext_resource type="Texture2D" uid="uid://jc1ugltm2i0i" path="res://assets/sprites/Props/seeds.png" id="22_i6yte"]
-[ext_resource type="PackedScene" uid="uid://fock1dug5y2y" path="res://scenes/birb2.tscn" id="24_tde8i"]
-[ext_resource type="PackedScene" uid="uid://bgm61xm2ljp0t" path="res://scenes/birb3.tscn" id="25_1n5h1"]
-[ext_resource type="PackedScene" uid="uid://cdr7anxtfmk65" path="res://scenes/birb4.tscn" id="26_m33ln"]
+[ext_resource type="Texture2D" uid="uid://iso4b3c70kd4" path="res://assets/sprites/Props/seeds.png" id="22_i6yte"]
+[ext_resource type="PackedScene" uid="uid://fock1dug5y2y" path="res://scenes/Birds/birb2.tscn" id="24_tde8i"]
+[ext_resource type="PackedScene" uid="uid://bgm61xm2ljp0t" path="res://scenes/Birds/birb3.tscn" id="25_1n5h1"]
+[ext_resource type="PackedScene" uid="uid://cdr7anxtfmk65" path="res://scenes/Birds/birb4.tscn" id="26_m33ln"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hjmlx"]
 texture = ExtResource("1_qmqsv")
@@ -285,6 +285,7 @@ shader_parameter/campfire_light_intensity = 0.50000002375
 [node name="T_Campsite" type="Node2D" unique_id=981647814 groups=["Area"]]
 y_sort_enabled = true
 metadata/area_name = "The Campsite"
+metadata/disable_fog = true
 
 [node name="Connectors" type="Node" parent="." unique_id=2010984447]
 
@@ -338,6 +339,7 @@ tile_map_data = PackedByteArray("AADs//L/AAAEABAAAADr//L/AAAEABAAAADr//P/AAAEABA
 tile_set = SubResource("TileSet_r3fxq")
 
 [node name="Ground4" type="TileMapLayer" parent="Tiles" unique_id=145540667]
+visible = false
 z_index = 100
 material = SubResource("ShaderMaterial_m33ln")
 use_parent_material = true
@@ -589,7 +591,7 @@ position = Vector2(-78, -232)
 position = Vector2(-154, -237)
 
 [node name="tree_65" parent="World/Tree_List" unique_id=1445702239 instance=ExtResource("4_oafpe")]
-position = Vector2(-154, -237)
+position = Vector2(-477, -381)
 
 [node name="tree_27" parent="World/Tree_List" unique_id=781855792 instance=ExtResource("4_oafpe")]
 position = Vector2(-36, 215)
@@ -642,6 +644,9 @@ position = Vector2(-375, 254)
 [node name="tree_98" parent="World/Tree_List" unique_id=952192575 instance=ExtResource("4_oafpe")]
 position = Vector2(-419, 199)
 
+[node name="tree_168" parent="World/Tree_List" unique_id=1638915545 instance=ExtResource("4_oafpe")]
+position = Vector2(-645, 96)
+
 [node name="tree_99" parent="World/Tree_List" unique_id=402462510 instance=ExtResource("4_oafpe")]
 position = Vector2(-491, 157)
 
@@ -679,7 +684,7 @@ position = Vector2(-297, -322)
 position = Vector2(-34, -237)
 
 [node name="tree_71" parent="World/Tree_List" unique_id=715037902 instance=ExtResource("4_oafpe")]
-position = Vector2(-537, -232)
+position = Vector2(-624, -238)
 
 [node name="tree_101" parent="World/Tree_List" unique_id=215468903 instance=ExtResource("11_mvpe6")]
 position = Vector2(-516, 85)
@@ -838,16 +843,22 @@ position = Vector2(-466, 183)
 position = Vector2(-556, 193)
 
 [node name="tree_103" parent="World/Tree_List" unique_id=688185471 instance=ExtResource("11_mvpe6")]
-position = Vector2(-602, -149)
+position = Vector2(-605, -131)
 
 [node name="tree_104" parent="World/Tree_List" unique_id=1377009207 instance=ExtResource("11_mvpe6")]
 position = Vector2(-541, -266)
 
+[node name="tree_167" parent="World/Tree_List" unique_id=1434902380 instance=ExtResource("11_mvpe6")]
+position = Vector2(-568, -285)
+
+[node name="tree_166" parent="World/Tree_List" unique_id=1461111628 instance=ExtResource("11_mvpe6")]
+position = Vector2(-720, -236)
+
 [node name="tree_139" parent="World/Tree_List" unique_id=1204224188 instance=ExtResource("11_mvpe6")]
-position = Vector2(-516, -328)
+position = Vector2(-510, -362)
 
 [node name="tree_140" parent="World/Tree_List" unique_id=989279138 instance=ExtResource("11_mvpe6")]
-position = Vector2(-602, -226)
+position = Vector2(-556, -221)
 
 [node name="tree_149" parent="World/Tree_List" unique_id=1695173228 instance=ExtResource("11_mvpe6")]
 position = Vector2(-664, -172)
@@ -856,7 +867,7 @@ position = Vector2(-664, -172)
 position = Vector2(-638, -290)
 
 [node name="tree_151" parent="World/Tree_List" unique_id=342221227 instance=ExtResource("11_mvpe6")]
-position = Vector2(-574, -338)
+position = Vector2(-605, -355)
 
 [node name="tree_152" parent="World/Tree_List" unique_id=670165836 instance=ExtResource("11_mvpe6")]
 position = Vector2(-552, 331)
